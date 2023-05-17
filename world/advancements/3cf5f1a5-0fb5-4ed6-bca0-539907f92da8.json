@@ -3778,15 +3778,21 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2023-05-17 06:29:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/totem_of_undying": {
     "criteria": {
       "used_totem": "2023-05-17 06:54:17 +0000"
     },
     "done": true
   },
-  "minecraft:nether/create_full_beacon": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "beacon": "2023-05-17 06:29:24 +0000"
+      "wheat": "2023-05-17 15:29:09 +0000"
     },
     "done": true
   },

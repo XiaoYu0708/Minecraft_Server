@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2023-05-01 17:15:01 +0000",
       "minecraft:taiga": "2023-05-02 16:01:32 +0000",
+      "minecraft:deep_ocean": "2023-05-17 16:03:37 +0000",
       "minecraft:frozen_river": "2023-05-04 15:42:46 +0000",
       "minecraft:sunflower_plains": "2023-05-02 16:50:15 +0000",
       "minecraft:birch_forest": "2023-05-02 16:11:15 +0000",
@@ -3167,6 +3168,42 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2023-05-16 17:34:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-05-17 16:48:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2023-05-17 16:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-05-17 16:07:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2023-05-17 16:51:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-05-17 16:48:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-05-17 16:07:56 +0000"
     },
     "done": true
   },
