@@ -1,7 +1,0 @@
-sudo zerotier-one -d
-
-sudo zerotier-cli join "a84ac5c10a081caf"
-
-sudo zerotier-cli status
-
-java -jar fabric-server-mc.1.19.4-loader.0.14.19-launcher.0.11.2.jar nogui
