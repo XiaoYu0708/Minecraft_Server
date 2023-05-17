@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4",
+    "name": "JOBstear",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "3cf5f1a5-0fb5-4ed6-bca0-539907f92da8",
     "name": "weitsungyu",
     "level": 4,

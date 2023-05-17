@@ -1,5 +1,5 @@
-[03:51:54] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[03:51:54] [main/INFO]: Loading 42 mods:
+[04:38:32] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[04:38:32] [main/INFO]: Loading 42 mods:
 	- carpet 1.4.101+v230319
 	- fabric-api 0.80.0+1.19.4
 	   |-- fabric-api-base 0.4.25+504944c8f4
@@ -54,78 +54,97 @@
 	- fabricloader 0.14.19
 	- java 17
 	- minecraft 1.19.4
-[03:51:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[03:51:55] [main/INFO]: Compatibility level set to JAVA_17
-[03:52:10] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[03:52:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:52:11] [main/INFO]: Found new data pack fabric, loading it automatically
-[03:52:14] [main/INFO]: Loaded 7 recipes
-[03:52:15] [main/INFO]: Loaded 1179 advancements
-[03:52:16] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.318 ms
-[03:52:16] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[03:52:16] [Server thread/INFO]: Loading properties
-[03:52:16] [Server thread/INFO]: Default game type: SURVIVAL
-[03:52:16] [Server thread/INFO]: Generating keypair
-[03:52:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:52:16] [Server thread/INFO]: Using epoll channel type
-[03:52:16] [Server thread/INFO]: Preparing level "world"
-[03:52:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:52:36] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[03:52:37] [Server thread/INFO]: Time elapsed: 12458 ms
-[03:52:37] [Server thread/INFO]: Done (21.021s)! For help, type "help"
-[03:53:15] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[03:53:17] [Server thread/INFO]: weitsungyu[/192.168.193.2:56800] logged in with entity id 228 at (-3.885814225171672, 112.0, 14.470979178954074)
-[03:53:17] [Server thread/INFO]: weitsungyu joined the game
-[03:53:43] [Server thread/INFO]: Alex[local] logged in with entity id 266 at (-3.885814225171672, 112.0, 14.470979178954074)
-[03:53:43] [Server thread/INFO]: Alex joined the game
-[03:55:02] [Server thread/INFO]: weitsungyu lost connection: Timed out
-[03:55:02] [Server thread/INFO]: weitsungyu left the game
-[03:55:38] [User Authenticator #2/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[03:55:39] [Server thread/INFO]: weitsungyu[/192.168.193.2:57020] logged in with entity id 476 at (-3.885814225171672, 112.0, 14.470979178954074)
-[03:55:39] [Server thread/INFO]: weitsungyu joined the game
-[03:57:24] [Server thread/INFO]: weitsungyu lost connection: Timed out
-[03:57:24] [Server thread/INFO]: weitsungyu left the game
-[03:57:37] [User Authenticator #3/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[03:57:37] [Server thread/INFO]: weitsungyu[/192.168.193.2:57149] logged in with entity id 766 at (12.717864816989511, 114.0, 30.74120519241317)
-[03:57:37] [Server thread/INFO]: weitsungyu joined the game
-[03:58:05] [Server thread/INFO]: weitsungyu lost connection: Disconnected
-[03:58:05] [Server thread/INFO]: weitsungyu left the game
-[03:58:48] [User Authenticator #4/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[03:58:48] [Server thread/INFO]: weitsungyu[/192.168.193.2:57211] logged in with entity id 938 at (14.300000011920929, 113.0, 27.17595362195137)
-[03:58:48] [Server thread/INFO]: weitsungyu joined the game
-[04:00:32] [Server thread/INFO]: weitsungyu lost connection: Disconnected
-[04:00:32] [Server thread/INFO]: weitsungyu left the game
-[04:02:29] [Server thread/INFO]: Stopping the server
-[04:02:29] [Server thread/INFO]: Stopping server
-[04:02:29] [Server thread/INFO]: Saving players
-[04:02:29] [Server thread/INFO]: Saving worlds
-[04:02:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:02:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:02:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:02:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:02:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:02:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:38:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[04:38:33] [main/INFO]: Compatibility level set to JAVA_17
+[04:38:47] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[04:38:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:38:51] [main/INFO]: Loaded 7 recipes
+[04:38:51] [main/INFO]: Loaded 1179 advancements
+[04:38:52] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.075 ms
+[04:38:52] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[04:38:52] [Server thread/INFO]: Loading properties
+[04:38:52] [Server thread/INFO]: Default game type: SURVIVAL
+[04:38:52] [Server thread/INFO]: Generating keypair
+[04:38:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:38:53] [Server thread/INFO]: Using epoll channel type
+[04:38:53] [Server thread/INFO]: Preparing level "world"
+[04:39:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:14] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[04:39:15] [Server thread/INFO]: Time elapsed: 13899 ms
+[04:39:15] [Server thread/INFO]: Done (21.855s)! For help, type "help"
+[04:39:26] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[04:39:26] [Server thread/INFO]: weitsungyu[/192.168.193.2:58934] logged in with entity id 226 at (14.300000011920929, 113.0, 27.17595362195137)
+[04:39:27] [Server thread/INFO]: weitsungyu joined the game
+[04:39:47] [User Authenticator #2/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
+[04:39:47] [Server thread/INFO]: JOBstear[/192.168.193.144:49282] logged in with entity id 303 at (9.5, 109.0, 1.5)
+[04:39:47] [Server thread/INFO]: JOBstear joined the game
+[04:41:44] [Server thread/INFO]: weitsungyu fell from a high place
+[04:41:51] [Server thread/INFO]: JOBstear fell from a high place
+[04:41:55] [Server thread/INFO]: [weitsungyu: Made JOBstear a server operator]
+[04:42:27] [Server thread/INFO]: Alex[local] logged in with entity id 1353 at (125.68385701802035, 89.0, -26.018331335540072)
+[04:42:27] [Server thread/INFO]: Alex joined the game
+[04:42:33] [Server thread/INFO]: TenZ[local] logged in with entity id 1372 at (125.69999998807907, 89.0, -24.024491717062517)
+[04:42:33] [Server thread/INFO]: TenZ joined the game
+[04:42:34] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[04:42:41] [Server thread/INFO]: CrazyFace[local] logged in with entity id 1415 at (127.30285483589624, 89.0, -22.998475596137887)
+[04:42:41] [Server thread/INFO]: CrazyFace joined the game
+[04:42:41] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[04:42:52] [Server thread/INFO]: Steve[local] logged in with entity id 1503 at (129.2389220967546, 89.0, -23.04690450631409)
+[04:42:52] [Server thread/INFO]: Steve joined the game
+[04:42:56] [Server thread/INFO]: [JOBstear: Teleported CrazyFace to JOBstear]
+[04:42:59] [Server thread/INFO]: RedMoon[local] logged in with entity id 1506 at (130.7439605807725, 89.0, -23.084571436451135)
+[04:42:59] [Server thread/INFO]: RedMoon joined the game
+[04:43:20] [Server thread/INFO]: [weitsungyu: Teleported 6 entities to JOBstear]
+[04:43:25] [Server thread/INFO]: RedMoon was shot by CrazyFace
+[04:43:25] [Server thread/INFO]: [JOBstear: Applied 2.56732336E16 damage to RedMoon]
+[04:43:25] [Server thread/INFO]: RedMoon lost connection: RedMoon died
+[04:43:25] [Server thread/INFO]: RedMoon left the game
+[04:43:38] [Server thread/INFO]: [weitsungyu: Teleported 5 entities to JOBstear]
+[04:44:49] [Server thread/INFO]: CrazyFace hit the ground too hard whilst trying to escape Creeper
+[04:44:49] [Server thread/INFO]: CrazyFace lost connection: CrazyFace died
+[04:44:49] [Server thread/INFO]: CrazyFace left the game
+[04:45:40] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[04:45:53] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[04:46:10] [Server thread/INFO]: weitsungyu fell from a high place
+[04:46:20] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[04:46:20] [Server thread/INFO]: weitsungyu left the game
+[04:46:25] [Server thread/INFO]: [JOBstear: Gave 1 [Diamond Horse Armor] to JOBstear]
+[04:46:27] [Server thread/INFO]: Stopping the server
+[04:46:27] [Server thread/INFO]: Stopping server
+[04:46:27] [Server thread/INFO]: Saving players
+[04:46:27] [Server thread/INFO]: JOBstear lost connection: Server closed
+[04:46:27] [Server thread/INFO]: JOBstear left the game
+[04:46:27] [Server thread/INFO]: Saving worlds
+[04:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:46:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:46:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:46:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
