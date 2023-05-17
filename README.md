@@ -1,6 +1,6 @@
 # Minecraft_Server
 
-啟動zerotier vpn 連線
+啟動zerotier vpn 服務
 ```
 sudo zerotier-one -d
 ```
