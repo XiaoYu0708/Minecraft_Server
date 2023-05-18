@@ -1,5 +1,10 @@
 # Minecraft_Server
 
+安裝zerotier vpn 服務
+```
+curl -s https://install.zerotier.com | sudo bash
+```
+
 啟動zerotier vpn 服務
 ```
 sudo zerotier-one -d
