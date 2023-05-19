@@ -1166,7 +1166,8 @@
       "baked_potato": "2023-05-04 16:07:04 +0000",
       "potato": "2023-05-02 16:46:07 +0000",
       "bread": "2023-05-02 16:53:25 +0000",
-      "suspicious_stew": "2023-05-09 17:33:50 +0000"
+      "suspicious_stew": "2023-05-09 17:33:50 +0000",
+      "cooked_salmon": "2023-05-19 19:47:50 +0000"
     },
     "done": false
   },
@@ -3204,6 +3205,30 @@
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2023-05-17 16:51:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2023-05-19 16:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2023-05-19 16:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2023-05-19 16:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2023-05-19 17:46:51 +0000"
     },
     "done": true
   },
