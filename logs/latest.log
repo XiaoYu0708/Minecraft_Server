@@ -1,100 +1,99 @@
-[19:31:33] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[19:31:33] [main/INFO]: Loading 5 mods:
+[20:26:17] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[20:26:17] [main/INFO]: Loading 5 mods:
 	- carpet 1.4.101+v230319
 	- fabricloader 0.14.19
 	- fatxporbs 2.0.1
 	- java 17
 	- minecraft 1.19.4
-[19:31:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[19:31:33] [main/INFO]: Compatibility level set to JAVA_17
-[19:31:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:31:43] [main/INFO]: Loaded 7 recipes
-[19:31:43] [main/INFO]: Loaded 1179 advancements
-[19:31:44] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[19:31:44] [Server thread/INFO]: Loading properties
-[19:31:44] [Server thread/INFO]: Default game type: SURVIVAL
-[19:31:44] [Server thread/INFO]: Generating keypair
-[19:31:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:31:44] [Server thread/INFO]: Using epoll channel type
-[19:31:44] [Server thread/INFO]: Preparing level "world"
-[19:31:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:31:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:31:54] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[19:31:55] [Worker-Main-3/INFO]: Preparing spawn area: 96%
-[19:31:55] [Server thread/INFO]: Time elapsed: 7265 ms
-[19:31:55] [Server thread/INFO]: Done (10.685s)! For help, type "help"
-[19:32:05] [User Authenticator #1/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
-[19:32:06] [Server thread/INFO]: Kong_Yin[/192.168.193.222:63798] logged in with entity id 436 at (-232.2857176597429, 65.16610926093821, -963.0191742334018)
-[19:32:06] [Server thread/INFO]: Kong_Yin joined the game
-[19:32:31] [User Authenticator #2/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
-[19:32:31] [Server thread/INFO]: JOBstear[/192.168.193.144:57329] logged in with entity id 526 at (-296.5178687373677, 65.0, -974.3232656541653)
-[19:32:31] [Server thread/INFO]: JOBstear joined the game
-[19:33:23] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -4297.500000, 74.000000, -4265.500000]
-[19:33:25] [Server thread/WARN]: Kong_Yin moved too quickly! 0.0,-10.806526110008988,0.0
-[19:34:18] [Server thread/INFO]: Kong_Yin fell out of the world
-[19:34:18] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[19:37:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-225, y=68, z=-966} class_2338{x=-225, y=67, z=-966}
-[19:37:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-226, y=68, z=-967} class_2338{x=-226, y=67, z=-967}
-[19:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-227, y=68, z=-966} class_2338{x=-227, y=67, z=-966}
-[19:44:56] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -4297.500000, 74.000000, -4265.500000]
-[19:44:58] [Server thread/WARN]: Kong_Yin moved too quickly! 0.0,-10.806526110008988,0.0
-[19:45:43] [Server thread/INFO]: Kong_Yin fell out of the world
-[19:45:43] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[19:45:54] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -4297.500000, 74.000000, -4265.500000]
-[19:45:55] [Server thread/WARN]: Kong_Yin moved too quickly! 0.0,-10.806526110008988,0.0
-[19:46:10] [Server thread/INFO]: Kong_Yin fell out of the world
-[19:46:10] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[19:47:33] [Server thread/INFO]: There are 2 of a max of 100 players online: JOBstear, Kong_Yin
-[19:48:22] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -4297.500000, 74.000000, -4265.500000]
-[19:48:23] [Server thread/WARN]: Kong_Yin moved too quickly! 0.0,-10.806526110008988,0.0
-[19:48:59] [Server thread/INFO]: Kong_Yin fell out of the world
-[19:48:59] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[19:50:21] [Server thread/WARN]: JOBstear moved wrongly!
-[19:50:29] [Server thread/INFO]: Saving the game (this may take a moment!)
-[19:50:29] [Server thread/INFO]: Saved the game
-[19:56:46] [User Authenticator #3/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[19:56:46] [Server thread/INFO]: weitsungyu[/192.168.193.2:63580] logged in with entity id 7039 at (-290.94756868206383, 64.5, -971.0611682708716)
-[19:56:46] [Server thread/INFO]: weitsungyu joined the game
-[20:04:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[20:04:46] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[20:06:05] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[20:07:28] [Server thread/INFO]: [Kong_Yin: Teleported JOBstear to Kong_Yin]
-[20:07:41] [Server thread/INFO]: [Kong_Yin: Teleported JOBstear to Kong_Yin]
-[20:07:41] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
-[20:07:45] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to 3 players]
-[20:07:47] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to 3 players]
-[20:07:47] [Server thread/INFO]: JOBstear lost connection: Disconnected
-[20:07:47] [Server thread/INFO]: JOBstear left the game
-[20:07:47] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to 2 players]
-[20:07:47] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to 2 players]
-[20:07:48] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to 2 players]
-[20:07:49] [Server thread/INFO]: Kong_Yin lost connection: Disconnected
-[20:07:49] [Server thread/INFO]: Kong_Yin left the game
-[20:07:49] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to weitsungyu]
-[20:07:49] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to weitsungyu]
-[20:07:50] [Server thread/INFO]: [weitsungyu: Played sound minecraft:entity.ender_dragon.shoot to weitsungyu]
-[20:07:52] [Server thread/INFO]: weitsungyu lost connection: Disconnected
-[20:07:52] [Server thread/INFO]: weitsungyu left the game
-[20:08:00] [Server thread/INFO]: Stopping the server
-[20:08:00] [Server thread/INFO]: Stopping server
-[20:08:00] [Server thread/INFO]: Saving players
-[20:08:00] [Server thread/INFO]: Saving worlds
-[20:08:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:08:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:08:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:08:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:08:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:08:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:08:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:26:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:26:17] [main/INFO]: Compatibility level set to JAVA_17
+[20:26:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:26:27] [main/INFO]: Loaded 7 recipes
+[20:26:27] [main/INFO]: Loaded 1179 advancements
+[20:26:27] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[20:26:27] [Server thread/INFO]: Loading properties
+[20:26:27] [Server thread/INFO]: Default game type: SURVIVAL
+[20:26:27] [Server thread/INFO]: Generating keypair
+[20:26:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:26:28] [Server thread/INFO]: Using epoll channel type
+[20:26:28] [Server thread/INFO]: Preparing level "world"
+[20:26:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:26:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:26:38] [Worker-Main-3/INFO]: Preparing spawn area: 14%
+[20:26:39] [Worker-Main-1/INFO]: Preparing spawn area: 37%
+[20:26:39] [Worker-Main-3/INFO]: Preparing spawn area: 89%
+[20:26:40] [Server thread/INFO]: Time elapsed: 7739 ms
+[20:26:40] [Server thread/INFO]: Done (11.796s)! For help, type "help"
+[20:29:43] [User Authenticator #1/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
+[20:29:43] [Server thread/INFO]: JOBstear[/192.168.193.144:49859] logged in with entity id 458 at (1441.3986245576457, 44.44064476854156, -2638.3374561135934)
+[20:29:43] [Server thread/INFO]: JOBstear joined the game
+[20:29:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2772ms or 55 ticks behind
+[20:29:59] [User Authenticator #2/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[20:29:59] [Server thread/INFO]: weitsungyu[/192.168.193.2:53857] logged in with entity id 655 at (-287.31055176832376, 70.0, -973.0124999880791)
+[20:29:59] [Server thread/INFO]: weitsungyu joined the game
+[20:30:03] [User Authenticator #3/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
+[20:30:03] [Server thread/INFO]: Kong_Yin[/192.168.193.222:54767] logged in with entity id 782 at (-265.57716369517357, 74.5625, -1009.345685433206)
+[20:30:03] [Server thread/INFO]: Kong_Yin joined the game
+[20:30:48] [Server thread/INFO]: [weitsungyu: Gave 1 [Trident] to JOBstear]
+[20:31:05] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
+[20:31:12] [Server thread/INFO]: [weitsungyu: Removed 1 item(s) from player JOBstear]
+[20:31:36] [Server thread/INFO]: [weitsungyu: Set the weather to clear]
+[20:32:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[20:33:50] [Server thread/INFO]: [JOBstear: Teleported JOBstear to weitsungyu]
+[20:33:52] [Server thread/INFO]: [weitsungyu: Saved the game]
+[20:36:40] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
+[20:36:41] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[20:36:42] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
+[20:36:44] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[20:36:53] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[20:37:55] [Server thread/INFO]: [weitsungyu: Teleported 5 entities to Kong_Yin]
+[20:38:47] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[20:38:51] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[20:39:49] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[20:39:55] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
+[20:39:56] [Server thread/INFO]: [weitsungyu: Teleported Wolf to Kong_Yin]
+[20:39:57] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[20:40:28] [Server thread/INFO]: [weitsungyu: Teleported Wolf to Kong_Yin]
+[20:41:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3639ms or 72 ticks behind
+[20:41:40] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
+[20:42:38] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
+[20:43:05] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
+[20:44:44] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Wolf]
+[20:44:53] [Server thread/INFO]: [weitsungyu: Teleported Wolf to weitsungyu]
+[20:45:06] [Server thread/INFO]: [weitsungyu: Teleported Wolf to weitsungyu]
+[20:46:42] [Server thread/INFO]: [weitsungyu: Teleported Wolf to weitsungyu]
+[20:47:52] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
+[20:47:59] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
+[20:48:14] [Server thread/INFO]: [weitsungyu: Saved the game]
+[20:48:57] [Server thread/INFO]: JOBstear lost connection: Disconnected
+[20:48:57] [Server thread/INFO]: JOBstear left the game
+[20:49:05] [Server thread/INFO]: Kong_Yin lost connection: Disconnected
+[20:49:05] [Server thread/INFO]: Kong_Yin left the game
+[20:53:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Creative Mode]
+[20:53:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[20:54:22] [Server thread/INFO]: [weitsungyu: Saved the game]
+[20:54:23] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[20:54:23] [Server thread/INFO]: weitsungyu left the game
+[20:54:29] [Server thread/INFO]: Stopping the server
+[20:54:29] [Server thread/INFO]: Stopping server
+[20:54:29] [Server thread/INFO]: Saving players
+[20:54:29] [Server thread/INFO]: Saving worlds
+[20:54:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
