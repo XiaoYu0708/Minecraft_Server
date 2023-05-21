@@ -15,6 +15,7 @@
       "minecraft:birch_forest": "2023-05-02 16:11:15 +0000",
       "minecraft:windswept_hills": "2023-05-04 15:37:14 +0000",
       "minecraft:bamboo_jungle": "2023-05-09 17:02:17 +0000",
+      "minecraft:savanna_plateau": "2023-05-21 17:14:22 +0000",
       "minecraft:beach": "2023-05-01 16:44:23 +0000",
       "minecraft:dark_forest": "2023-05-01 16:50:04 +0000",
       "minecraft:mangrove_swamp": "2023-05-14 18:11:20 +0000",
@@ -3253,6 +3254,42 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2023-05-20 19:18:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:16:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2023-05-21 15:49:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2023-05-21 15:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:16:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:16:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-05-21 15:49:27 +0000"
     },
     "done": true
   },

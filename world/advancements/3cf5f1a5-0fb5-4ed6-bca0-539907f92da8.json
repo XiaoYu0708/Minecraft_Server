@@ -16,6 +16,7 @@
       "minecraft:birch_forest": "2023-05-07 16:50:26 +0000",
       "minecraft:windswept_hills": "2023-05-14 18:22:33 +0000",
       "minecraft:bamboo_jungle": "2023-05-17 06:37:40 +0000",
+      "minecraft:savanna_plateau": "2023-05-21 17:14:25 +0000",
       "minecraft:beach": "2023-05-01 16:44:18 +0000",
       "minecraft:dark_forest": "2023-05-01 16:52:52 +0000",
       "minecraft:mangrove_swamp": "2023-05-14 18:21:32 +0000",
@@ -265,7 +266,8 @@
       "suspicious_stew": "2023-05-09 17:34:24 +0000",
       "glow_berries": "2023-05-01 17:09:06 +0000",
       "golden_carrot": "2023-05-07 18:09:13 +0000",
-      "cooked_rabbit": "2023-05-04 16:10:36 +0000"
+      "cooked_rabbit": "2023-05-04 16:10:36 +0000",
+      "cooked_chicken": "2023-05-21 16:48:52 +0000"
     },
     "done": false
   },
@@ -4051,6 +4053,55 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2023-05-20 20:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-05-21 16:47:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2023-05-21 15:42:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2023-05-21 15:40:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cat": "2023-05-21 16:27:34 +0000",
+      "minecraft:pig": "2023-05-21 16:36:32 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-05-21 16:27:34 +0000"
     },
     "done": true
   },

@@ -7,10 +7,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-05-21 17:04:52 +0000",
       "minecraft:old_growth_pine_taiga": "2023-05-01 17:15:01 +0000",
       "minecraft:taiga": "2023-05-02 16:01:22 +0000",
       "minecraft:sunflower_plains": "2023-05-17 16:20:31 +0000",
       "minecraft:birch_forest": "2023-05-04 18:35:11 +0000",
+      "minecraft:windswept_hills": "2023-05-21 17:03:02 +0000",
       "minecraft:beach": "2023-05-04 18:32:22 +0000",
       "minecraft:dark_forest": "2023-05-01 16:50:04 +0000",
       "minecraft:mangrove_swamp": "2023-05-14 18:17:11 +0000",
@@ -19,6 +21,7 @@
       "minecraft:dripstone_caves": "2023-05-07 16:52:38 +0000",
       "minecraft:swamp": "2023-05-14 18:02:03 +0000",
       "minecraft:grove": "2023-05-16 16:35:44 +0000",
+      "minecraft:jagged_peaks": "2023-05-21 17:04:55 +0000",
       "minecraft:cold_ocean": "2023-05-04 18:32:45 +0000",
       "minecraft:forest": "2023-05-01 16:48:47 +0000",
       "minecraft:lush_caves": "2023-05-01 16:50:08 +0000",
@@ -29,9 +32,11 @@
       "minecraft:windswept_savanna": "2023-05-17 16:18:06 +0000",
       "minecraft:warm_ocean": "2023-05-17 16:30:30 +0000",
       "minecraft:flower_forest": "2023-05-17 16:20:34 +0000",
+      "minecraft:frozen_peaks": "2023-05-21 17:06:03 +0000",
       "minecraft:old_growth_birch_forest": "2023-05-01 16:49:18 +0000",
       "minecraft:deep_dark": "2023-05-16 16:38:11 +0000",
       "minecraft:meadow": "2023-05-04 18:40:28 +0000",
+      "minecraft:savanna": "2023-05-21 17:17:51 +0000",
       "minecraft:plains": "2023-05-01 16:43:19 +0000"
     },
     "done": false
@@ -3954,6 +3959,18 @@
       "has_slime_block": "2023-05-20 19:20:53 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-05-21 16:25:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:white": "2023-05-21 17:14:52 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3337
 }
