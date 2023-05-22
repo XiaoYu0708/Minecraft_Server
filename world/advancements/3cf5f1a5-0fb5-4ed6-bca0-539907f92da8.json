@@ -28,6 +28,7 @@
       "minecraft:dripstone_caves": "2023-05-11 17:16:13 +0000",
       "minecraft:grove": "2023-05-01 17:11:28 +0000",
       "minecraft:swamp": "2023-05-14 18:08:42 +0000",
+      "minecraft:jagged_peaks": "2023-05-22 16:18:04 +0000",
       "minecraft:cold_ocean": "2023-05-05 18:21:44 +0000",
       "minecraft:forest": "2023-05-01 16:48:50 +0000",
       "minecraft:lush_caves": "2023-05-01 16:52:41 +0000",
@@ -4071,7 +4072,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2023-05-21 16:27:34 +0000",
-      "minecraft:pig": "2023-05-21 16:36:32 +0000"
+      "minecraft:pig": "2023-05-21 16:36:32 +0000",
+      "minecraft:sheep": "2023-05-22 18:30:17 +0000"
     },
     "done": false
   },
@@ -4102,6 +4104,78 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2023-05-21 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-05-22 18:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2023-05-22 18:28:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-05-22 18:28:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2023-05-22 18:28:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2023-05-22 18:28:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2023-05-22 18:29:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2023-05-22 18:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2023-05-22 18:29:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2023-05-22 18:40:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2023-05-22 18:40:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-05-22 18:42:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2023-05-22 18:43:55 +0000"
     },
     "done": true
   },

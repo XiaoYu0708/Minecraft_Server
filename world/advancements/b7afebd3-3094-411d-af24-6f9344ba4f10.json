@@ -26,6 +26,7 @@
       "minecraft:forest": "2023-05-01 16:48:47 +0000",
       "minecraft:lush_caves": "2023-05-01 16:50:08 +0000",
       "minecraft:deep_cold_ocean": "2023-05-17 16:23:10 +0000",
+      "minecraft:desert": "2023-05-22 18:38:49 +0000",
       "minecraft:windswept_forest": "2023-05-14 18:10:44 +0000",
       "minecraft:ocean": "2023-05-01 16:48:23 +0000",
       "minecraft:old_growth_spruce_taiga": "2023-05-01 17:16:11 +0000",
@@ -3971,6 +3972,84 @@
       "minecraft:white": "2023-05-21 17:14:52 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2023-05-22 17:39:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2023-05-22 16:23:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2023-05-22 18:43:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2023-05-22 18:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-22 17:32:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-22 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2023-05-22 16:12:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-22 17:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2023-05-22 17:40:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2023-05-22 18:39:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2023-05-22 18:02:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2023-05-22 18:43:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2023-05-22 16:12:43 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3337
 }
