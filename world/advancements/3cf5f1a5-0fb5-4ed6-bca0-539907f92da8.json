@@ -4056,33 +4056,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
-    "criteria": {
-      "has_melon": "2023-05-21 17:18:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2023-05-21 16:47:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/very_very_frightening": {
-    "criteria": {
-      "struck_villager": "2023-05-21 15:42:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
       "lightning_rod_with_villager_no_fire": "2023-05-21 15:40:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
+  "minecraft:adventure/very_very_frightening": {
     "criteria": {
-      "has_melon": "2023-05-21 17:18:24 +0000"
+      "struck_villager": "2023-05-21 15:42:46 +0000"
     },
     "done": true
   },
@@ -4093,15 +4075,33 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/melon": {
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-05-21 16:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-05-21 16:47:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2023-05-21 17:18:24 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
-      "bred": "2023-05-21 16:27:34 +0000"
+      "has_melon": "2023-05-21 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-05-21 17:18:24 +0000"
     },
     "done": true
   },

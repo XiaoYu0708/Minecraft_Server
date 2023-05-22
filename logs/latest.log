@@ -1,287 +1,57 @@
-[15:33:57] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[15:33:57] [main/INFO]: Loading 5 mods:
+[12:31:16] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[12:31:16] [main/INFO]: Loading 5 mods:
 	- carpet 1.4.101+v230319
 	- fabricloader 0.14.19
 	- fatxporbs 2.0.1
 	- java 17
 	- minecraft 1.19.4
-[15:33:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[15:33:58] [main/INFO]: Compatibility level set to JAVA_17
-[15:34:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:34:07] [main/INFO]: Loaded 7 recipes
-[15:34:08] [main/INFO]: Loaded 1179 advancements
-[15:34:08] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[15:34:08] [Server thread/INFO]: Loading properties
-[15:34:08] [Server thread/INFO]: Default game type: SURVIVAL
-[15:34:08] [Server thread/INFO]: Generating keypair
-[15:34:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:34:08] [Server thread/INFO]: Using epoll channel type
-[15:34:09] [Server thread/INFO]: Preparing level "world"
-[15:34:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:34:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:34:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:34:17] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[15:34:17] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[15:34:18] [Worker-Main-3/INFO]: Preparing spawn area: 11%
-[15:34:18] [Worker-Main-2/INFO]: Preparing spawn area: 33%
-[15:34:19] [Worker-Main-1/INFO]: Preparing spawn area: 47%
-[15:34:19] [Worker-Main-3/INFO]: Preparing spawn area: 82%
-[15:34:20] [Server thread/INFO]: Time elapsed: 6954 ms
-[15:34:20] [Server thread/INFO]: Done (10.868s)! For help, type "help"
-[15:36:07] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[15:36:07] [Server thread/INFO]: weitsungyu[/192.168.193.2:61263] logged in with entity id 442 at (-296.9278236197236, 65.0, -975.7772069688981)
-[15:36:07] [Server thread/INFO]: weitsungyu joined the game
-[15:38:40] [Server thread/INFO]: [weitsungyu: Saved the game]
-[15:40:08] [Server thread/INFO]: [weitsungyu: Set the weather to rain & thunder]
-[15:40:18] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
-[15:40:28] [Server thread/INFO]: [weitsungyu: Set the weather to rain]
-[15:40:36] [Server thread/INFO]: [weitsungyu: Set the weather to rain & thunder]
-[15:40:43] [Server thread/INFO]: weitsungyu has made the advancement [Surge Protector]
-[15:40:53] [Server thread/INFO]: Villager class_1646['Cartographer'/6612, l='ServerLevel[world]', x=1902.45, y=94.00, z=-1682.25] died, message: 'Cartographer was impaled by weitsungyu'
-[15:42:46] [Server thread/INFO]: Villager class_1646['Nitwit'/6695, l='ServerLevel[world]', x=1877.20, y=90.36, z=-1632.52] was struck by lightning class_1538['Lightning Bolt'/7643, l='ServerLevel[world]', x=1877.50, y=90.00, z=-1632.50].
-[15:42:46] [Server thread/INFO]: weitsungyu has made the advancement [Very Very Frightening]
-[15:43:02] [Server thread/INFO]: weitsungyu fell out of the world
-[15:43:02] [Server thread/INFO]: [weitsungyu: Killed weitsungyu]
-[15:44:40] [User Authenticator #2/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
-[15:44:40] [Server thread/INFO]: JOBstear[/192.168.193.144:61383] logged in with entity id 8222 at (-273.30000001192093, 72.0, -930.3338547845618)
-[15:44:40] [Server thread/INFO]: JOBstear joined the game
-[15:44:56] [Server thread/INFO]: [weitsungyu: Applied effect Glowing to 2 targets]
-[15:44:58] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[15:46:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:46:42] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:46:47] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:46:49] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:47:15] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:47:18] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:47:41] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[15:47:58] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:48:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:48:14] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
-[15:48:21] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[15:49:16] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:49:17] [Server thread/INFO]: [JOBstear: Set the weather to rain & thunder]
-[15:49:22] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:49:27] [Server thread/INFO]: JOBstear has made the advancement [A Throwaway Joke]
-[15:49:27] [Server thread/INFO]: Villager class_1646['Farmer'/9603, l='ServerLevel[world]', x=-132.72, y=65.36, z=-394.19] was struck by lightning class_1538['Lightning Bolt'/10132, l='ServerLevel[world]', x=-132.50, y=65.00, z=-394.50].
-[15:49:27] [Server thread/INFO]: JOBstear has made the advancement [Very Very Frightening]
-[15:49:28] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:49:30] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:49:36] [Server thread/INFO]: JOBstear has made the advancement [Surge Protector]
-[15:49:40] [Server thread/INFO]: Villager class_1646['Farmer'/9605, l='ServerLevel[world]', x=-129.60, y=65.36, z=-393.64] was struck by lightning class_1538['Lightning Bolt'/10295, l='ServerLevel[world]', x=-129.50, y=65.00, z=-394.50].
-[15:49:52] [Server thread/INFO]: Villager class_1646['Villager'/9609, l='ServerLevel[world]', x=-127.52, y=64.36, z=-388.70] was struck by lightning class_1538['Lightning Bolt'/10360, l='ServerLevel[world]', x=-127.50, y=64.00, z=-388.50].
-[15:49:54] [Server thread/INFO]: Villager class_1646['Villager'/9606, l='ServerLevel[world]', x=-132.40, y=64.36, z=-385.82] was struck by lightning class_1538['Lightning Bolt'/10366, l='ServerLevel[world]', x=-132.50, y=64.00, z=-385.50].
-[15:50:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:50:32] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:50:36] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:50:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:50:44] [Server thread/INFO]: Villager class_1646['Fisherman'/9604, l='ServerLevel[world]', x=-187.05, y=65.00, z=-396.54] died, message: 'Fisherman was impaled by JOBstear'
-[15:50:49] [Server thread/INFO]: Villager class_1646['Fisherman'/9594, l='ServerLevel[world]', x=-194.68, y=64.36, z=-398.78] was struck by lightning class_1538['Lightning Bolt'/10971, l='ServerLevel[world]', x=-194.50, y=64.00, z=-398.50].
-[15:50:50] [Server thread/INFO]: [weitsungyu: Saved the game]
-[15:51:21] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[15:51:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[15:52:10] [Server thread/INFO]: Villager class_1646['Farmer'/9630, l='ServerLevel[world]', x=-187.54, y=70.36, z=-361.14] was struck by lightning class_1538['Lightning Bolt'/11866, l='ServerLevel[world]', x=-187.50, y=70.00, z=-361.50].
-[15:53:15] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[15:54:14] [Server thread/INFO]: JOBstear was blown up by Creeper
-[15:55:25] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[15:55:47] [Server thread/INFO]: JOBstear was shot by Skeleton
-[15:57:21] [Server thread/INFO]: [JOBstear: Applied effect Regeneration to JOBstear]
-[15:58:46] [Server thread/INFO]: [JOBstear: Set the weather to clear]
-[15:59:17] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[16:00:04] [Server thread/INFO]: [JOBstear: Applied effect Night Vision to JOBstear]
-[16:00:32] [User Authenticator #3/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
-[16:00:32] [Server thread/INFO]: Kong_Yin[/192.168.193.222:58002] logged in with entity id 15879 at (-264.8096380243318, 74.0, -1011.1120994000959)
-[16:00:32] [Server thread/INFO]: Kong_Yin joined the game
-[16:02:49] [Server thread/INFO]: [JOBstear: Applied effect Dolphin's Grace to JOBstear]
-[16:05:07] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
-[16:06:08] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[16:07:12] [Server thread/INFO]: [weitsungyu: Applied effect Glowing to 3 targets]
-[16:11:09] [Server thread/INFO]: Villager class_1646['Librarian'/191, l='ServerLevel[world]', x=-295.30, y=69.00, z=-982.30] died, message: 'Librarian burned to death'
-[16:11:11] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:11:13] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:11:18] [Server thread/INFO]: [weitsungyu: Summoned new Villager]
-[16:11:19] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:11:21] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:11:30] [Server thread/WARN]: Kong_Yin moved too quickly! 0.13616642843842897,-0.3693736602695026,-10.14381867045708
-[16:11:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
-[16:13:20] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[16:13:29] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
-[16:13:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:13:30] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:13:33] [Server thread/INFO]: [JOBstear: Teleported JOBstear to JOBstear]
-[16:13:37] [Server thread/INFO]: [JOBstear: Teleported JOBstear to weitsungyu]
-[16:13:43] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[16:13:49] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[16:13:51] [Server thread/INFO]: Kong_Yin fell out of the world
-[16:13:51] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[16:15:11] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[16:15:33] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[16:16:26] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:16:30] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
-[16:16:32] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[16:16:37] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
-[16:16:44] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[16:16:58] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:17:14] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:17:38] [Server thread/INFO]: weitsungyu fell out of the world
-[16:17:51] [Server thread/INFO]: [weitsungyu: Set own game mode to Creative Mode]
-[16:19:55] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:20:21] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:20:50] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
-[16:20:56] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[16:22:11] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[16:22:14] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[16:25:34] [Server thread/INFO]: Kong_Yin has made the advancement [A Throwaway Joke]
-[16:26:18] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[16:26:36] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[16:27:00] [Server thread/INFO]: [JOBstear: Teleported weitsungyu to JOBstear]
-[16:27:34] [Server thread/INFO]: weitsungyu has made the advancement [The Parrots and the Bats]
-[16:27:35] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[16:29:26] [Server thread/WARN]: weitsungyu moved wrongly!
-[16:30:29] [Server thread/INFO]: [Kong_Yin: Teleported Cat to Kong_Yin]
-[16:32:45] [Server thread/INFO]: [Kong_Yin: Teleported Cat to Kong_Yin]
-[16:38:37] [Server thread/WARN]: Kong_Yin moved wrongly!
-[16:39:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[16:40:39] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[16:40:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:40:42] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:40:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:41:00] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:41:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:41:03] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:42:21] [Server thread/INFO]: JOBstear was slain by Wolf
-[16:43:00] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:43:49] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to JOBstear]
-[16:44:27] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:44:43] [Server thread/INFO]: [Kong_Yin: Teleported Wolf to Kong_Yin]
-[16:48:03] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[16:49:41] [Server thread/INFO]: [JOBstear: Set the weather to rain & thunder]
-[16:49:43] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[16:50:33] [Server thread/INFO]: JOBstear was shot by Skeleton
-[16:50:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:51:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:51:59] [Server thread/WARN]: JOBstear moved wrongly!
-[16:52:01] [Server thread/INFO]: JOBstear fell from a high place
-[16:52:09] [Server thread/INFO]: [weitsungyu: Saved the game]
-[16:52:22] [Server thread/WARN]: JOBstear moved too quickly! 21.554837588847136,23.04903318831731,-29.320041611969373
-[16:52:22] [Server thread/WARN]: Kong_Yin moved too quickly! 1.615006856216496,0.0,10.610397181857536
-[16:52:34] [Server thread/INFO]: [weitsungyu: Saved the game]
-[16:52:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:52:43] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:52:51] [Server thread/WARN]: JOBstear moved too quickly! 45.88626582977804,-4.164405584360054,1.6987638087668984
-[16:52:51] [Server thread/WARN]: Kong_Yin moved too quickly! 7.282888625678424,0.0,7.923131120347762
-[16:52:56] [Server thread/WARN]: JOBstear moved too quickly! 36.61381173160976,-2.1118498172068314,0.3000451914817859
-[16:52:56] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:53:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:53:11] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:53:14] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:53:19] [Server thread/INFO]: JOBstear was slain by Zombie
-[16:53:31] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:53:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:53:46] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:53:51] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:54:10] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:54:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:54:27] [Server thread/INFO]: [weitsungyu: Set own game mode to Creative Mode]
-[16:56:06] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[16:56:27] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[16:56:32] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:57:00] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:57:27] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:57:32] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
-[16:57:37] [Server thread/INFO]: [weitsungyu: Set the weather to clear]
-[17:05:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1866, y=91, z=619} class_2338{x=-1866, y=90, z=620}
-[17:06:24] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:06:29] [Server thread/INFO]: [weitsungyu: Saved the game]
-[17:07:48] [Server thread/INFO]: [Kong_Yin: Set the time to 1000]
-[17:08:53] [Server thread/INFO]: Villager class_1646['Cleric'/56266, l='ServerLevel[world]', x=-2082.30, y=114.00, z=-269.58] died, message: 'Cleric froze to death'
-[17:09:41] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:09:43] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:09:54] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:09:56] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:09:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:10:04] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:10:29] [Server thread/INFO]: Villager class_1646['Nitwit'/56209, l='ServerLevel[world]', x=-2101.55, y=118.00, z=-278.51] died, message: 'Nitwit froze to death'
-[17:10:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:11:08] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:13:24] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:13:38] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[17:13:41] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[17:13:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:14:24] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:14:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:14:35] [Server thread/INFO]: weitsungyu fell out of the world
-[17:14:35] [Server thread/INFO]: [weitsungyu: Killed weitsungyu]
-[17:14:35] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:14:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Creative Mode]
-[17:14:43] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:14:56] [Server thread/INFO]: [weitsungyu: Saved the game]
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=110, z=-49} class_2338{x=-3900, y=109, z=-50}
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=110, z=-49} class_2338{x=-3900, y=109, z=-50}
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=111, z=-51} class_2338{x=-3900, y=109, z=-50}
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=111, z=-51} class_2338{x=-3900, y=109, z=-50}
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=111, z=-51} class_2338{x=-3900, y=109, z=-50}
-[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3900, y=111, z=-51} class_2338{x=-3900, y=109, z=-50}
-[17:15:37] [Server thread/INFO]: [Kong_Yin: Teleported Cat to weitsungyu]
-[17:15:49] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[17:15:50] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[17:15:58] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[17:16:01] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:16:14] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:17:27] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -2032.500000, 118.000000, -295.500000]
-[17:17:49] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[17:19:10] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[17:19:12] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:19:14] [Server thread/INFO]: weitsungyu fell out of the world
-[17:19:14] [Server thread/INFO]: [weitsungyu: Killed weitsungyu]
-[17:19:24] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -3945.500000, 71.000000, -270.500000]
-[17:19:33] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to -2032.500000, 118.000000, -295.500000]
-[17:19:47] [Server thread/INFO]: Villager class_1646['Villager'/66668, l='ServerLevel[world]', x=-3920.55, y=72.00, z=-247.83] died, message: 'Villager was slain by Zombie'
-[17:20:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3902, y=78, z=-574} class_2338{x=-3902, y=79, z=-575}
-[17:21:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3908, y=68, z=-577} class_2338{x=-3908, y=67, z=-578}
-[17:21:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3913, y=68, z=-577} class_2338{x=-3912, y=67, z=-578}
-[17:22:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3923, y=74, z=-580} class_2338{x=-3923, y=74, z=-579}
-[17:22:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3923, y=74, z=-580} class_2338{x=-3923, y=74, z=-579}
-[17:22:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3923, y=74, z=-580} class_2338{x=-3923, y=74, z=-579}
-[17:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3926, y=76, z=-579} class_2338{x=-3926, y=76, z=-580}
-[17:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3926, y=76, z=-579} class_2338{x=-3926, y=76, z=-580}
-[17:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3926, y=76, z=-579} class_2338{x=-3926, y=76, z=-580}
-[17:22:29] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[17:22:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3952, y=73, z=-613} class_2338{x=-3954, y=72, z=-614}
-[17:22:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3952, y=73, z=-613} class_2338{x=-3954, y=72, z=-614}
-[17:22:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3959, y=72, z=-619} class_2338{x=-3956, y=72, z=-619}
-[17:22:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3959, y=72, z=-619} class_2338{x=-3956, y=72, z=-619}
-[17:22:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3962, y=70, z=-621} class_2338{x=-3964, y=68, z=-625}
-[17:23:16] [Server thread/INFO]: JOBstear experienced kinetic energy
-[17:23:38] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:23:45] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[17:25:16] [Server thread/INFO]: [Kong_Yin: Teleported Cat to Kong_Yin]
-[17:27:09] [Server thread/INFO]: JOBstear lost connection: Disconnected
-[17:27:09] [Server thread/INFO]: JOBstear left the game
-[17:27:12] [Server thread/INFO]: Kong_Yin lost connection: Disconnected
-[17:27:12] [Server thread/INFO]: Kong_Yin left the game
-[17:30:55] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:30:56] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:30:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:30:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:32:08] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:32:10] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:32:49] [Server thread/INFO]: [weitsungyu: Saved the game]
-[17:32:50] [Server thread/INFO]: weitsungyu lost connection: Disconnected
-[17:32:50] [Server thread/INFO]: weitsungyu left the game
-[17:32:55] [Server thread/INFO]: Stopping the server
-[17:32:55] [Server thread/INFO]: Stopping server
-[17:32:55] [Server thread/INFO]: Saving players
-[17:32:55] [Server thread/INFO]: Saving worlds
-[17:32:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:32:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:31:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:31:16] [main/INFO]: Compatibility level set to JAVA_17
+[12:31:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:31:26] [main/INFO]: Loaded 7 recipes
+[12:31:26] [main/INFO]: Loaded 1179 advancements
+[12:31:27] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[12:31:27] [Server thread/INFO]: Loading properties
+[12:31:27] [Server thread/INFO]: Default game type: SURVIVAL
+[12:31:27] [Server thread/INFO]: Generating keypair
+[12:31:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:31:27] [Server thread/INFO]: Using epoll channel type
+[12:31:27] [Server thread/INFO]: Preparing level "world"
+[12:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:31:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:31:36] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:31:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:31:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:31:39] [Worker-Main-1/INFO]: Preparing spawn area: 8%
+[12:31:39] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[12:31:40] [Server thread/INFO]: Time elapsed: 8589 ms
+[12:31:40] [Server thread/INFO]: Done (12.493s)! For help, type "help"
+[12:32:17] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[12:32:17] [Server thread/INFO]: weitsungyu[/[0:0:0:0:0:0:0:1%0]:59128] logged in with entity id 396 at (-267.16409679868804, 64.0, -1022.6432554909802)
+[12:32:17] [Server thread/INFO]: weitsungyu joined the game
+[12:32:42] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
+[12:33:39] [Server thread/INFO]: [weitsungyu: Saved the game]
+[12:33:44] [Server thread/INFO]: [weitsungyu: Stopping the server]
+[12:33:44] [Server thread/INFO]: Stopping server
+[12:33:44] [Server thread/INFO]: Saving players
+[12:33:44] [Server thread/INFO]: weitsungyu lost connection: Server closed
+[12:33:44] [Server thread/INFO]: weitsungyu left the game
+[12:33:44] [Server thread/INFO]: Saving worlds
+[12:33:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
