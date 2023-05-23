@@ -3969,37 +3969,22 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "minecraft:white": "2023-05-21 17:14:52 +0000"
+      "minecraft:white": "2023-05-21 17:14:52 +0000",
+      "minecraft:jellie": "2023-05-23 17:05:08 +0000",
+      "minecraft:british_shorthair": "2023-05-23 17:03:06 +0000",
+      "minecraft:red": "2023-05-23 17:07:01 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+  "minecraft:recipes/decorations/snow": {
     "criteria": {
-      "has_blue_orchid": "2023-05-22 17:39:16 +0000"
+      "has_snowball": "2023-05-22 16:12:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "has_cyan_terracotta": "2023-05-22 16:23:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/cyan_dye": {
-    "criteria": {
-      "has_green_dye": "2023-05-22 18:43:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather": {
-    "criteria": {
-      "has_rabbit_hide": "2023-05-22 18:40:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2023-05-22 17:32:39 +0000"
+      "has_snowball": "2023-05-22 16:12:43 +0000"
     },
     "done": true
   },
@@ -4009,15 +3994,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
     "criteria": {
-      "has_snowball": "2023-05-22 16:12:43 +0000"
+      "has_cyan_terracotta": "2023-05-22 16:23:53 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapped_chest": {
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
-      "has_tripwire_hook": "2023-05-22 17:54:19 +0000"
+      "has_glass": "2023-05-22 17:32:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2023-05-22 17:39:16 +0000"
     },
     "done": true
   },
@@ -4027,9 +4018,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye": {
+  "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
-      "has_cactus": "2023-05-22 18:39:14 +0000"
+      "has_tripwire_hook": "2023-05-22 17:54:19 +0000"
     },
     "done": true
   },
@@ -4039,15 +4030,171 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2023-05-22 18:39:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2023-05-22 18:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2023-05-22 18:43:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_candle": {
     "criteria": {
       "has_green_dye": "2023-05-22 18:43:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
-      "has_snowball": "2023-05-22 16:12:43 +0000"
+      "has_yellow_wool": "2023-05-23 17:29:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2023-05-23 17:29:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2023-05-23 17:29:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2023-05-23 17:30:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2023-05-23 17:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall": {
+    "criteria": {
+      "has_red_sandstone": "2023-05-23 17:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2023-05-23 17:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2023-05-23 17:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2023-05-23 17:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2023-05-23 18:16:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2023-05-23 18:21:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-05-23 18:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-23 18:25:51 +0000"
     },
     "done": true
   },

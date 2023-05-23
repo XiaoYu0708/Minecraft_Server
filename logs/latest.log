@@ -1,52 +1,136 @@
-[04:22:02] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[04:22:02] [main/INFO]: Loading 6 mods:
+[18:35:05] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[18:35:06] [main/INFO]: Loading 6 mods:
 	- carpet 1.4.101+v230319
 	- fabricloader 0.14.19
 	- fatxporbs 2.0.1
 	- java 17
 	- lithium 0.11.1
 	- minecraft 1.19.4
-[04:22:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[04:22:03] [main/INFO]: Compatibility level set to JAVA_17
-[04:22:03] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
-[04:22:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:22:13] [main/INFO]: Loaded 7 recipes
-[04:22:14] [main/INFO]: Loaded 1179 advancements
-[04:22:14] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[04:22:14] [Server thread/INFO]: Loading properties
-[04:22:14] [Server thread/INFO]: Default game type: SURVIVAL
-[04:22:14] [Server thread/INFO]: Generating keypair
-[04:22:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:22:14] [Server thread/INFO]: Using epoll channel type
-[04:22:15] [Server thread/INFO]: Preparing level "world"
-[04:22:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:22:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[04:22:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:22:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[04:22:27] [Worker-Main-3/INFO]: Preparing spawn area: 13%
-[04:22:27] [Worker-Main-1/INFO]: Preparing spawn area: 38%
-[04:22:28] [Server thread/INFO]: Time elapsed: 8531 ms
-[04:22:28] [Server thread/INFO]: Done (12.953s)! For help, type "help"
-[04:22:28] [Server thread/INFO]: Stopping the server
-[04:22:28] [Server thread/INFO]: Stopping server
-[04:22:28] [Server thread/INFO]: Saving players
-[04:22:28] [Server thread/INFO]: Saving worlds
-[04:22:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:22:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:22:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:35:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/codespace/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[18:35:06] [main/INFO]: Compatibility level set to JAVA_17
+[18:35:06] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[18:35:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:35:16] [main/INFO]: Loaded 7 recipes
+[18:35:17] [main/INFO]: Loaded 1179 advancements
+[18:35:17] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[18:35:17] [Server thread/INFO]: Loading properties
+[18:35:17] [Server thread/INFO]: Default game type: SURVIVAL
+[18:35:17] [Server thread/INFO]: Generating keypair
+[18:35:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:35:17] [Server thread/INFO]: Using epoll channel type
+[18:35:18] [Server thread/INFO]: Preparing level "world"
+[18:35:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:35:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:35:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:35:28] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[18:35:29] [Worker-Main-1/INFO]: Preparing spawn area: 33%
+[18:35:29] [Server thread/INFO]: Time elapsed: 7689 ms
+[18:35:29] [Server thread/INFO]: Done (11.819s)! For help, type "help"
+[18:35:34] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[18:35:34] [Server thread/INFO]: weitsungyu[/[0:0:0:0:0:0:0:1%0]:46648] logged in with entity id 573 at (-274.5898366682096, 72.0, -930.3000000119209)
+[18:35:34] [Server thread/INFO]: weitsungyu joined the game
+[18:35:48] [User Authenticator #2/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
+[18:35:48] [Server thread/INFO]: Kong_Yin[/[0:0:0:0:0:0:0:1%0]:38820] logged in with entity id 637 at (-330.4327333489402, 70.0, -972.1156804738199)
+[18:35:48] [Server thread/INFO]: Kong_Yin joined the game
+[18:36:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:36:54] [User Authenticator #3/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
+[18:36:54] [Server thread/INFO]: JOBstear[/[0:0:0:0:0:0:0:1%0]:59012] logged in with entity id 826 at (-271.85338953170356, 72.5625, -930.4663275992818)
+[18:36:54] [Server thread/INFO]: JOBstear joined the game
+[18:39:09] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:39:56] [Server thread/INFO]: <JOBstear> emotional damage
+[18:40:35] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:40:38] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:40:50] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:40:52] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:41:06] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:41:09] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:41:31] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:41:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:42:04] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:42:06] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:42:40] [Server thread/INFO]: weitsungyu has made the advancement [Best Friends Forever]
+[18:42:42] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:42:58] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:43:00] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:46:00] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:46:02] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:46:14] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:46:16] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:46:34] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:46:39] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:46:47] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:46:56] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:47:51] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
+[18:47:56] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:48:54] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:49:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:49:41] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:49:43] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:49:46] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:49:48] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:49:53] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:49:57] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:51:08] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:51:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:51:43] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:52:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:52:20] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:52:20] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:52:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:52:38] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:53:00] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:53:03] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:53:05] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:53:11] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:53:15] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:53:17] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:53:19] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:54:27] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:54:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:55:16] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:55:24] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:55:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:55:29] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:55:42] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:55:42] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:55:42] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:55:45] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:55:48] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:55:50] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[18:55:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[18:55:52] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Armor Stand]
+[18:55:52] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:55:53] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[18:55:57] [Server thread/INFO]: [weitsungyu: Teleported Armor Stand to weitsungyu]
+[18:56:00] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
+[18:56:07] [Server thread/INFO]: [weitsungyu: Teleported Armor Stand to weitsungyu]
+[18:56:10] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[18:56:34] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[18:56:37] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[18:56:42] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[18:57:31] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[18:57:45] [Server thread/INFO]: [weitsungyu: Saved the game]
+[18:58:19] [Server thread/INFO]: [weitsungyu: Stopping the server]
+[18:58:19] [Server thread/INFO]: Stopping server
+[18:58:19] [Server thread/INFO]: Saving players
+[18:58:19] [Server thread/INFO]: Kong_Yin lost connection: Server closed
+[18:58:19] [Server thread/INFO]: Kong_Yin left the game
+[18:58:19] [Server thread/INFO]: Saving worlds
+[18:58:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:58:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
