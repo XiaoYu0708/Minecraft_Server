@@ -4073,7 +4073,8 @@
     "criteria": {
       "minecraft:cat": "2023-05-21 16:27:34 +0000",
       "minecraft:pig": "2023-05-21 16:36:32 +0000",
-      "minecraft:sheep": "2023-05-22 18:30:17 +0000"
+      "minecraft:sheep": "2023-05-22 18:30:17 +0000",
+      "minecraft:chicken": "2023-05-24 18:27:19 +0000"
     },
     "done": false
   },
@@ -4182,6 +4183,36 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2023-05-23 18:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-05-24 16:25:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-05-24 18:26:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-05-24 18:26:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-05-24 16:25:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-05-24 16:25:14 +0000"
     },
     "done": true
   },
