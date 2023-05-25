@@ -259,6 +259,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chorus_fruit": "2023-05-04 17:30:24 +0000",
+      "baked_potato": "2023-05-25 18:03:35 +0000",
       "apple": "2023-05-05 12:18:24 +0000",
       "poisonous_potato": "2023-05-16 16:32:42 +0000",
       "pumpkin_pie": "2023-05-06 09:37:24 +0000",
@@ -4192,18 +4193,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2023-05-24 18:26:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2023-05-24 18:26:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2023-05-24 16:25:14 +0000"
@@ -4213,6 +4202,18 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2023-05-24 16:25:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-05-24 18:26:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-05-24 18:26:15 +0000"
     },
     "done": true
   },
