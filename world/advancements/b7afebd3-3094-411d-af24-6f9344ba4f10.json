@@ -4260,39 +4260,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_banner": {
-    "criteria": {
-      "has_cyan_wool": "2023-05-25 15:59:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2023-05-25 15:58:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
-    "criteria": {
-      "has_light_blue_terracotta": "2023-05-25 15:58:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
     },
     "done": true
   },
@@ -4308,6 +4278,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2023-05-25 15:58:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2023-05-25 15:59:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_carpet": {
     "criteria": {
       "has_cyan_wool": "2023-05-25 15:59:05 +0000"
@@ -4317,6 +4299,36 @@
   "minecraft:recipes/decorations/cyan_bed": {
     "criteria": {
       "has_cyan_wool": "2023-05-25 15:59:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2023-05-25 16:22:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2023-05-31 17:08:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2023-05-31 17:10:39 +0000"
     },
     "done": true
   },
