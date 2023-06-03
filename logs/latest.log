@@ -1,48 +1,52 @@
-[19:47:08] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[19:47:08] [main/INFO]: Loading 6 mods:
+[10:19:38] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[10:19:39] [main/INFO]: Loading 6 mods:
 	- carpet 1.4.101+v230319
 	- fabricloader 0.14.19
 	- fatxporbs 2.0.1
 	- java 17
 	- lithium 0.11.1
 	- minecraft 1.19.4
-[19:47:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[19:47:08] [main/INFO]: Compatibility level set to JAVA_17
-[19:47:08] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
-[19:47:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:47:18] [main/INFO]: Loaded 7 recipes
-[19:47:18] [main/INFO]: Loaded 1179 advancements
-[19:47:19] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[19:47:19] [Server thread/INFO]: Loading properties
-[19:47:19] [Server thread/INFO]: Default game type: SURVIVAL
-[19:47:19] [Server thread/INFO]: Generating keypair
-[19:47:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:47:19] [Server thread/INFO]: Using epoll channel type
-[19:47:19] [Server thread/INFO]: Preparing level "world"
-[19:47:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:47:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:47:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:47:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:47:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:47:28] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[19:47:28] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[19:47:29] [Worker-Main-1/INFO]: Preparing spawn area: 25%
-[19:47:29] [Worker-Main-1/INFO]: Preparing spawn area: 56%
-[19:47:30] [Server thread/INFO]: Time elapsed: 7000 ms
-[19:47:30] [Server thread/INFO]: Done (11.106s)! For help, type "help"
-[19:47:35] [Server thread/INFO]: Stopping the server
-[19:47:35] [Server thread/INFO]: Stopping server
-[19:47:35] [Server thread/INFO]: Saving players
-[19:47:35] [Server thread/INFO]: Saving worlds
-[19:47:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:19:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[10:19:39] [main/INFO]: Compatibility level set to JAVA_17
+[10:19:39] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[10:19:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:19:49] [main/INFO]: Loaded 7 recipes
+[10:19:50] [main/INFO]: Loaded 1179 advancements
+[10:19:50] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[10:19:50] [Server thread/INFO]: Loading properties
+[10:19:50] [Server thread/INFO]: Default game type: SURVIVAL
+[10:19:50] [Server thread/INFO]: Generating keypair
+[10:19:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:19:50] [Server thread/INFO]: Using epoll channel type
+[10:19:51] [Server thread/INFO]: Preparing level "world"
+[10:19:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:19:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:19:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:19:59] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[10:20:00] [Worker-Main-1/INFO]: Preparing spawn area: 20%
+[10:20:00] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[10:20:01] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[10:20:01] [Server thread/INFO]: Time elapsed: 7111 ms
+[10:20:01] [Server thread/INFO]: Done (10.654s)! For help, type "help"
+[10:20:06] [Server thread/INFO]: Reloading!
+[10:20:06] [Server thread/INFO]: Loaded 7 recipes
+[10:20:06] [Server thread/INFO]: Loaded 1179 advancements
+[10:20:08] [Server thread/INFO]: Stopping the server
+[10:20:08] [Server thread/INFO]: Stopping server
+[10:20:08] [Server thread/INFO]: Saving players
+[10:20:08] [Server thread/INFO]: Saving worlds
+[10:20:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
