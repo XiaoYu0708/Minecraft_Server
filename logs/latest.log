@@ -1,52 +1,465 @@
-[10:19:38] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[10:19:39] [main/INFO]: Loading 6 mods:
+[15:03:20] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[15:03:21] [main/INFO]: Loading 6 mods:
 	- carpet 1.4.101+v230319
 	- fabricloader 0.14.19
 	- fatxporbs 2.0.1
 	- java 17
 	- lithium 0.11.1
 	- minecraft 1.19.4
-[10:19:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[10:19:39] [main/INFO]: Compatibility level set to JAVA_17
-[10:19:39] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
-[10:19:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:19:49] [main/INFO]: Loaded 7 recipes
-[10:19:50] [main/INFO]: Loaded 1179 advancements
-[10:19:50] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[10:19:50] [Server thread/INFO]: Loading properties
-[10:19:50] [Server thread/INFO]: Default game type: SURVIVAL
-[10:19:50] [Server thread/INFO]: Generating keypair
-[10:19:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:19:50] [Server thread/INFO]: Using epoll channel type
-[10:19:51] [Server thread/INFO]: Preparing level "world"
-[10:19:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:19:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:19:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[10:19:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:19:59] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[10:20:00] [Worker-Main-1/INFO]: Preparing spawn area: 20%
-[10:20:00] [Worker-Main-1/INFO]: Preparing spawn area: 34%
-[10:20:01] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[10:20:01] [Server thread/INFO]: Time elapsed: 7111 ms
-[10:20:01] [Server thread/INFO]: Done (10.654s)! For help, type "help"
-[10:20:06] [Server thread/INFO]: Reloading!
-[10:20:06] [Server thread/INFO]: Loaded 7 recipes
-[10:20:06] [Server thread/INFO]: Loaded 1179 advancements
-[10:20:08] [Server thread/INFO]: Stopping the server
-[10:20:08] [Server thread/INFO]: Stopping server
-[10:20:08] [Server thread/INFO]: Saving players
-[10:20:08] [Server thread/INFO]: Saving worlds
-[10:20:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:03:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:03:21] [main/INFO]: Compatibility level set to JAVA_17
+[15:03:21] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[15:03:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:03:30] [main/INFO]: Loaded 7 recipes
+[15:03:31] [main/INFO]: Loaded 1179 advancements
+[15:03:31] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[15:03:31] [Server thread/INFO]: Loading properties
+[15:03:31] [Server thread/INFO]: Default game type: SURVIVAL
+[15:03:31] [Server thread/INFO]: Generating keypair
+[15:03:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:03:31] [Server thread/INFO]: Using epoll channel type
+[15:03:31] [Server thread/INFO]: Preparing level "world"
+[15:03:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:03:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:03:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:03:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:03:44] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[15:03:45] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[15:03:45] [Server thread/INFO]: Time elapsed: 10269 ms
+[15:03:45] [Server thread/INFO]: Done (13.821s)! For help, type "help"
+[15:07:00] [User Authenticator #1/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
+[15:07:00] [Server thread/INFO]: JOBstear[/[0:0:0:0:0:0:0:1%0]:59868] logged in with entity id 542 at (-338.36423003889604, 64.0, -1017.3065174512026)
+[15:07:00] [Server thread/INFO]: JOBstear joined the game
+[15:07:14] [User Authenticator #2/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[15:07:14] [Server thread/INFO]: weitsungyu[/127.0.0.1:33068] logged in with entity id 721 at (-297.69280853949994, 64.0, -981.0297021169346)
+[15:07:14] [Server thread/INFO]: weitsungyu joined the game
+[15:07:25] [User Authenticator #3/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
+[15:07:25] [Server thread/INFO]: Kong_Yin[/[0:0:0:0:0:0:0:1%0]:52492] logged in with entity id 737 at (-271.30000001192093, 72.5625, -929.5085195216083)
+[15:07:25] [Server thread/INFO]: Kong_Yin joined the game
+[15:08:50] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[15:08:50] [Server thread/INFO]: weitsungyu left the game
+[15:09:43] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[15:09:55] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[15:09:58] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
+[15:10:07] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[15:10:13] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[15:10:17] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[15:10:26] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[15:11:57] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
+[15:12:41] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[15:13:40] [User Authenticator #4/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[15:13:40] [Server thread/INFO]: weitsungyu[/127.0.0.1:58474] logged in with entity id 2460 at (-295.9957347593476, 64.0, -977.3387557911028)
+[15:13:40] [Server thread/INFO]: weitsungyu joined the game
+[15:13:56] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[15:14:05] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[15:14:30] [Server thread/INFO]: [JOBstear: Teleported weitsungyu to JOBstear]
+[15:15:36] [Server thread/INFO]: [JOBstear: Set weitsungyu's game mode to Spectator Mode]
+[15:20:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[15:22:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[15:22:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[15:23:15] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to weitsungyu]
+[15:25:37] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
+[15:26:47] [Server thread/INFO]: [weitsungyu: Set JOBstear's game mode to Survival Mode]
+[15:27:00] [Server thread/INFO]: [weitsungyu: Enabling data pack [file/xiaoyu (world)]]
+[15:27:00] [Server thread/INFO]: Loaded 7 recipes
+[15:27:00] [Server thread/INFO]: Loaded 1179 advancements
+[15:33:14] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
+[15:33:20] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[15:33:42] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[15:35:35] [Server thread/INFO]: JOBstear lost connection: Disconnected
+[15:35:35] [Server thread/INFO]: JOBstear left the game
+[15:35:41] [User Authenticator #5/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
+[15:35:41] [Server thread/INFO]: JOBstear[/[0:0:0:0:0:0:0:1%0]:40852] logged in with entity id 9717 at (-241.63450479830243, 64.0, -958.9372136177658)
+[15:35:41] [Server thread/INFO]: JOBstear joined the game
+[15:38:53] [Server thread/INFO]: weitsungyu was slain by JOBstear
+[15:39:34] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[15:39:50] [Server thread/WARN]: Kong_Yin moved wrongly!
+[15:40:28] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[15:42:49] [Server thread/WARN]: Kong_Yin moved wrongly!
+[15:46:10] [Server thread/INFO]: [JOBstear: Teleported Kong_Yin to JOBstear]
+[15:46:18] [Server thread/INFO]: [JOBstear: Teleported weitsungyu to JOBstear]
+[15:46:18] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
+[15:46:55] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[15:47:35] [Server thread/INFO]: Alex[local] logged in with entity id 14481 at (-265.4206391592222, 64.0, -958.5183772726673)
+[15:47:35] [Server thread/INFO]: Alex joined the game
+[15:47:49] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[15:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-263, y=63, z=-957}
+[15:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-262, y=63, z=-957}
+[15:47:55] [Server thread/INFO]: Alex was slain by JOBstear
+[15:47:55] [Server thread/INFO]: Alex lost connection: Alex died
+[15:47:55] [Server thread/INFO]: Alex left the game
+[15:47:59] [Server thread/INFO]: Alex[local] logged in with entity id 14594 at (-266.7479199634415, 63.0, -953.2421823386446)
+[15:47:59] [Server thread/INFO]: Alex joined the game
+[15:48:06] [Server thread/INFO]: [weitsungyu: Teleported Alex to weitsungyu]
+[15:48:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-261, y=62, z=-951}
+[15:48:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-260, y=62, z=-951}
+[15:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2339{x=-255, y=63, z=-949}
+[15:48:19] [Server thread/INFO]: Alex was slain by JOBstear
+[15:48:19] [Server thread/INFO]: Alex lost connection: Alex died
+[15:48:19] [Server thread/INFO]: Alex left the game
+[15:49:05] [Server thread/INFO]: Alex[local] logged in with entity id 14937 at (-271.90366190015334, 64.0, -955.1456961794662)
+[15:49:05] [Server thread/INFO]: Alex joined the game
+[15:49:16] [Server thread/INFO]: [weitsungyu: Teleported Alex to weitsungyu]
+[15:49:33] [Server thread/INFO]: Alex lost connection: Killed
+[15:49:33] [Server thread/INFO]: Alex left the game
+[15:56:35] [Server thread/INFO]: CrazyFace[local] logged in with entity id 18264 at (-383.69999998807907, 192.97275492337025, -1171.300000011921)
+[15:56:35] [Server thread/INFO]: CrazyFace joined the game
+[15:56:51] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
+[15:57:08] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[15:57:11] [Server thread/INFO]: [JOBstear: Teleported JOBstear to CrazyFace]
+[15:57:53] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[15:58:44] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[15:58:46] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[15:58:48] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[15:58:49] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[15:58:54] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[15:58:56] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[15:58:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[15:59:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:01:51] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:01:54] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:05:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:05:45] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:06:53] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:06:58] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:07:21] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:07:31] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[16:08:02] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:08:11] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:08:12] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:08:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:08:19] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:08:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:08:27] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:08:53] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:10] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:09:12] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:15] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:09:18] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:09:30] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:32] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:09:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:36] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:09:48] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:09:52] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:10:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8479ms or 169 ticks behind
+[16:10:21] [Server thread/WARN]: JOBstear moved too quickly! -8.595861869512419,0.0,-6.228214251963095
+[16:10:21] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:10:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:10:25] [Server thread/INFO]: [JOBstear: Teleported JOBstear to weitsungyu]
+[16:10:37] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[16:10:50] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:10:52] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:11:40] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to weitsungyu]
+[16:12:50] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:13:03] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:13:09] [Server thread/INFO]: JOBstear was slain by Zombie
+[16:13:26] [Server thread/INFO]: [JOBstear: Applied effect Speed to JOBstear]
+[16:16:30] [Server thread/INFO]: Steve[local] logged in with entity id 30400 at (546.0222240035454, -52.0, -1459.3676153769375)
+[16:16:30] [Server thread/INFO]: Steve joined the game
+[16:17:26] [Server thread/INFO]: Alex[local] logged in with entity id 32369 at (97.27176522489822, 49.0, 3.8518539368330575)
+[16:17:26] [Server thread/INFO]: Alex joined the game
+[16:17:26] [Server thread/INFO]: Alex has made the advancement [The End?]
+[16:18:20] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:18:22] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:18:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:18:25] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:21:28] [Server thread/INFO]: [JOBstear: Set the weather to clear]
+[16:29:17] [Server thread/INFO]: [JOBstear: Set Kong_Yin's game mode to Spectator Mode]
+[16:29:22] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:29:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:29:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:29:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:29:26] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
+[16:29:28] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[16:29:58] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Steve]
+[16:30:07] [Server thread/INFO]: Steve lost connection: Killed
+[16:30:07] [Server thread/INFO]: Steve left the game
+[16:30:31] [Server thread/INFO]: Alex lost connection: Killed
+[16:30:31] [Server thread/INFO]: Alex left the game
+[16:30:51] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
+[16:30:51] [Server thread/INFO]: Piyan[local] logged in with entity id 56188 at (-322.8280662910052, 143.3164162631076, -1015.6891371985843)
+[16:30:52] [Server thread/INFO]: Piyan joined the game
+[16:31:03] [Server thread/INFO]: [JOBstear: Set Piyan's game mode to Survival Mode]
+[16:31:06] [Server thread/INFO]: Piyan fell from a high place
+[16:31:06] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:31:06] [Server thread/INFO]: Piyan left the game
+[16:31:12] [Server thread/INFO]: Piyan[local] logged in with entity id 56384 at (-327.57685632271625, 133.94708950375747, -1001.1285898178436)
+[16:31:12] [Server thread/INFO]: Piyan joined the game
+[16:31:13] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[16:31:14] [Server thread/INFO]: [JOBstear: Set Piyan's game mode to Survival Mode]
+[16:31:17] [Server thread/INFO]: Piyan fell from a high place
+[16:31:17] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:31:17] [Server thread/INFO]: Piyan left the game
+[16:31:33] [Server thread/INFO]: Piyan[local] logged in with entity id 56788 at (-279.8573045911626, 133.94708950375747, -962.903874810031)
+[16:31:33] [Server thread/INFO]: Piyan joined the game
+[16:31:35] [Server thread/INFO]: [JOBstear: Set Piyan's game mode to Survival Mode]
+[16:31:38] [Server thread/INFO]: Piyan fell from a high place
+[16:31:38] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:31:38] [Server thread/INFO]: Piyan left the game
+[16:31:40] [Server thread/INFO]: Piyan[local] logged in with entity id 56989 at (-277.56403965735865, 133.94708950375747, -964.4042873007555)
+[16:31:40] [Server thread/INFO]: Piyan joined the game
+[16:31:41] [Server thread/INFO]: [JOBstear: Set Piyan's game mode to Survival Mode]
+[16:31:43] [Server thread/INFO]: Piyan fell from a high place
+[16:31:43] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:31:43] [Server thread/INFO]: Piyan left the game
+[16:31:47] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[16:31:58] [Server thread/INFO]: Alex[local] logged in with entity id 57324 at (98.45037900106921, 49.0, 3.466954161906964)
+[16:31:58] [Server thread/INFO]: Alex joined the game
+[16:32:00] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[16:32:12] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Alex]
+[16:32:13] [Server thread/INFO]: Piyan[local] logged in with entity id 57486 at (-331.3653545990839, 64.0, -1009.6999999880791)
+[16:32:13] [Server thread/INFO]: Piyan joined the game
+[16:32:19] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[16:32:21] [Server thread/INFO]: Piyan was shot by JOBstear
+[16:32:21] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:32:21] [Server thread/INFO]: Piyan left the game
+[16:32:36] [Server thread/INFO]: Piyan[local] logged in with entity id 57692 at (-329.1700956775449, 64.0, -993.6351927588764)
+[16:32:36] [Server thread/INFO]: Piyan joined the game
+[16:33:06] [Server thread/INFO]: Piyan was squished too much
+[16:33:06] [Server thread/INFO]: [JOBstear: Applied 5.0E13 damage to Piyan]
+[16:33:06] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:33:06] [Server thread/INFO]: Piyan left the game
+[16:33:15] [Server thread/INFO]: Alex lost connection: Killed
+[16:33:15] [Server thread/INFO]: Alex left the game
+[16:33:37] [Server thread/INFO]: Piyan[local] logged in with entity id 58173 at (-328.52884971398487, 64.0, -994.1810262382645)
+[16:33:37] [Server thread/INFO]: Piyan joined the game
+[16:33:41] [Server thread/INFO]: Piyan was slain by CrazyFace
+[16:33:41] [Server thread/INFO]: [JOBstear: Applied 5.0E13 damage to Piyan]
+[16:33:41] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:33:41] [Server thread/INFO]: Piyan left the game
+[16:33:57] [Server thread/INFO]: Piyan[local] logged in with entity id 58309 at (-328.54725256216375, 64.0, -994.2500618915153)
+[16:33:57] [Server thread/INFO]: Piyan joined the game
+[16:34:23] [Server thread/INFO]: [JOBstear: Teleported Piyan to 23.500000, 34.000000, 432.500000]
+[16:34:34] [Server thread/INFO]: Piyan suffocated in a wall
+[16:34:34] [Server thread/INFO]: Piyan lost connection: Piyan died
+[16:34:34] [Server thread/INFO]: Piyan left the game
+[16:39:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-328, y=56, z=-1037} class_2338{x=-321, y=62, z=-1038}
+[16:40:21] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[16:55:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:56:08] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:56:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:56:19] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:56:51] [Server thread/WARN]: JOBstear moved wrongly!
+[16:57:33] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
+[16:58:06] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:58:17] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:58:29] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:58:35] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:58:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[16:58:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[16:59:54] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
+[16:59:56] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[17:00:00] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[17:00:26] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
+[17:00:35] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
+[17:00:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
+[17:01:52] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[17:01:52] [Server thread/INFO]: weitsungyu left the game
+[17:02:23] [Server thread/INFO]: /advancement (grant|revoke)
+[17:02:23] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[17:02:23] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[17:02:23] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[17:02:23] [Server thread/INFO]: /clear [<targets>]
+[17:02:23] [Server thread/INFO]: /clone (<begin>|from)
+[17:02:23] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[17:02:23] [Server thread/INFO]: /data (merge|get|remove|modify)
+[17:02:23] [Server thread/INFO]: /datapack (enable|disable|list)
+[17:02:23] [Server thread/INFO]: /debug (start|stop|function)
+[17:02:23] [Server thread/INFO]: /defaultgamemode <gamemode>
+[17:02:23] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[17:02:23] [Server thread/INFO]: /effect (clear|give)
+[17:02:23] [Server thread/INFO]: /me <action>
+[17:02:23] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[17:02:23] [Server thread/INFO]: /experience (add|set|query)
+[17:02:23] [Server thread/INFO]: /xp -> experience
+[17:02:23] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[17:02:23] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[17:02:23] [Server thread/INFO]: /forceload (add|remove|query)
+[17:02:23] [Server thread/INFO]: /function <name>
+[17:02:23] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[17:02:23] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[17:02:23] [Server thread/INFO]: /give <targets> <item> [<count>]
+[17:02:23] [Server thread/INFO]: /help [<command>]
+[17:02:23] [Server thread/INFO]: /item (replace|modify)
+[17:02:23] [Server thread/INFO]: /kick <targets> [<reason>]
+[17:02:23] [Server thread/INFO]: /kill [<targets>]
+[17:02:23] [Server thread/INFO]: /list [uuids]
+[17:02:23] [Server thread/INFO]: /locate (structure|biome|poi)
+[17:02:23] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[17:02:23] [Server thread/INFO]: /msg <targets> <message>
+[17:02:23] [Server thread/INFO]: /tell -> msg
+[17:02:23] [Server thread/INFO]: /w -> msg
+[17:02:23] [Server thread/INFO]: /particle <name> [<pos>]
+[17:02:23] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[17:02:23] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[17:02:23] [Server thread/INFO]: /reload
+[17:02:23] [Server thread/INFO]: /recipe (give|take)
+[17:02:23] [Server thread/INFO]: /ride <target> (mount|dismount)
+[17:02:23] [Server thread/INFO]: /say <message>
+[17:02:23] [Server thread/INFO]: /schedule (function|clear)
+[17:02:23] [Server thread/INFO]: /scoreboard (objectives|players)
+[17:02:23] [Server thread/INFO]: /seed
+[17:02:23] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[17:02:23] [Server thread/INFO]: /spawnpoint [<targets>]
+[17:02:23] [Server thread/INFO]: /setworldspawn [<pos>]
+[17:02:23] [Server thread/INFO]: /spectate [<target>]
+[17:02:23] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[17:02:23] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[17:02:23] [Server thread/INFO]: /summon <entity> [<pos>]
+[17:02:23] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[17:02:23] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[17:02:23] [Server thread/INFO]: /teammsg <message>
+[17:02:23] [Server thread/INFO]: /tm -> teammsg
+[17:02:23] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[17:02:23] [Server thread/INFO]: /tp -> teleport
+[17:02:23] [Server thread/INFO]: /tellraw <targets> <message>
+[17:02:23] [Server thread/INFO]: /time (set|add|query)
+[17:02:23] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[17:02:23] [Server thread/INFO]: /trigger <objective> [add|set]
+[17:02:23] [Server thread/INFO]: /weather (clear|rain|thunder)
+[17:02:23] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[17:02:23] [Server thread/INFO]: /jfr (start|stop)
+[17:02:23] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[17:02:23] [Server thread/INFO]: /banlist [ips|players]
+[17:02:23] [Server thread/INFO]: /ban <targets> [<reason>]
+[17:02:23] [Server thread/INFO]: /deop <targets>
+[17:02:23] [Server thread/INFO]: /op <targets>
+[17:02:23] [Server thread/INFO]: /pardon <targets>
+[17:02:23] [Server thread/INFO]: /pardon-ip <target>
+[17:02:23] [Server thread/INFO]: /perf (start|stop)
+[17:02:23] [Server thread/INFO]: /save-all [flush]
+[17:02:23] [Server thread/INFO]: /save-off
+[17:02:23] [Server thread/INFO]: /save-on
+[17:02:23] [Server thread/INFO]: /setidletimeout <minutes>
+[17:02:23] [Server thread/INFO]: /stop
+[17:02:23] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[17:02:23] [Server thread/INFO]: /carpet [list|removeDefault|setDefault|<rule>]
+[17:02:23] [Server thread/INFO]: /tick (rate|warp|freeze|step|superHot|health|entities)
+[17:02:23] [Server thread/INFO]: /profile [health|entities]
+[17:02:23] [Server thread/INFO]: /log [clear|<log name>]
+[17:02:23] [Server thread/INFO]: /spawn (list|tracking|test|mocking|rates|mobcaps|entities)
+[17:02:23] [Server thread/INFO]: /player <player> (stop|use|jump|attack|drop|dropStack|swapHands|hotbar|kill|shadow|mount|dismount|sneak|unsneak|sprint|unsprint|look|turn|move|spawn)
+[17:02:23] [Server thread/INFO]: /info block <block position> [grep]
+[17:02:23] [Server thread/INFO]: /distance (from|to)
+[17:02:23] [Server thread/INFO]: /perimeterinfo [<center position>]
+[17:02:23] [Server thread/INFO]: /draw (sphere|ball|diamond|pyramid|cone|cylinder|cuboid)
+[17:02:23] [Server thread/INFO]: /script (globals|resume|stop|run|invoke|invokepoint|invokearea|scan|fill|outline|load|unload|event|download|remove|in)
+[17:02:23] [Server thread/INFO]: /track <entity type> (clear|<aspect>)
+[17:03:06] [Server thread/INFO]: [Not Secure] [Server] haha
+[17:03:31] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[17:03:31] [Server thread/INFO]: title haha<--[HERE]
+[17:03:47] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[17:04:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[17:04:04] [Server thread/INFO]: ...tle "haha"<--[HERE]
+[17:16:00] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[17:16:04] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[17:16:10] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[17:16:16] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[17:16:40] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[17:16:45] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[17:22:12] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
+[17:22:21] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
+[17:41:18] [Server thread/INFO]: Saving the game (this may take a moment!)
+[17:41:18] [Server thread/INFO]: Saved the game
+[17:41:28] [Server thread/INFO]: Stopping the server
+[17:41:28] [Server thread/INFO]: Stopping server
+[17:41:28] [Server thread/INFO]: Saving players
+[17:41:28] [Server thread/INFO]: Saving worlds
+[17:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:41:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:41:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
