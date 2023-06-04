@@ -4375,5 +4375,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-06-04 18:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-06-04 18:26:27 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3337
 }
