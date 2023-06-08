@@ -16,6 +16,7 @@
       "minecraft:taiga": "2023-06-01 17:05:57 +0000",
       "minecraft:river": "2023-06-08 12:32:01 +0000",
       "minecraft:cold_ocean": "2023-05-15 12:29:36 +0000",
+      "minecraft:deep_frozen_ocean": "2023-06-08 16:26:57 +0000",
       "minecraft:old_growth_spruce_taiga": "2023-06-03 15:47:36 +0000",
       "minecraft:plains": "2023-05-14 19:17:25 +0000"
     },
@@ -84,6 +85,18 @@
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2023-06-03 16:17:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2023-06-08 16:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2023-06-08 16:26:57 +0000"
     },
     "done": true
   },

@@ -7,18 +7,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-06-08 16:14:37 +0000",
       "minecraft:old_growth_pine_taiga": "2023-05-01 17:46:54 +0000",
       "minecraft:mushroom_fields": "2023-05-17 06:38:32 +0000",
       "minecraft:taiga": "2023-05-02 15:57:40 +0000",
       "minecraft:deep_ocean": "2023-05-17 06:38:08 +0000",
       "minecraft:frozen_river": "2023-05-08 07:18:16 +0000",
       "minecraft:sunflower_plains": "2023-05-14 18:22:49 +0000",
+      "minecraft:cherry_grove": "2023-06-08 17:05:57 +0000",
       "minecraft:birch_forest": "2023-05-07 16:50:26 +0000",
       "minecraft:windswept_hills": "2023-05-14 18:22:33 +0000",
       "minecraft:bamboo_jungle": "2023-05-17 06:37:40 +0000",
       "minecraft:savanna_plateau": "2023-05-21 17:14:25 +0000",
       "minecraft:beach": "2023-05-01 16:44:18 +0000",
       "minecraft:dark_forest": "2023-05-01 16:52:52 +0000",
+      "minecraft:stony_peaks": "2023-06-08 16:50:29 +0000",
       "minecraft:mangrove_swamp": "2023-05-14 18:21:32 +0000",
       "minecraft:sparse_jungle": "2023-05-17 06:37:34 +0000",
       "minecraft:river": "2023-05-01 16:44:36 +0000",
@@ -26,6 +29,7 @@
       "minecraft:snowy_plains": "2023-05-08 07:17:44 +0000",
       "minecraft:stony_shore": "2023-05-17 06:40:41 +0000",
       "minecraft:dripstone_caves": "2023-05-11 17:16:13 +0000",
+      "minecraft:snowy_taiga": "2023-06-08 16:24:26 +0000",
       "minecraft:grove": "2023-05-01 17:11:28 +0000",
       "minecraft:swamp": "2023-05-14 18:08:42 +0000",
       "minecraft:jagged_peaks": "2023-05-22 16:18:04 +0000",
@@ -40,6 +44,7 @@
       "minecraft:ocean": "2023-05-08 07:30:53 +0000",
       "minecraft:jungle": "2023-05-14 18:21:41 +0000",
       "minecraft:old_growth_spruce_taiga": "2023-05-02 16:05:43 +0000",
+      "minecraft:snowy_beach": "2023-06-08 16:24:35 +0000",
       "minecraft:windswept_savanna": "2023-05-14 18:11:26 +0000",
       "minecraft:deep_lukewarm_ocean": "2023-05-17 06:38:15 +0000",
       "minecraft:flower_forest": "2023-05-14 18:22:45 +0000",
@@ -4029,6 +4034,102 @@
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2023-06-08 12:24:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2023-06-08 17:06:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2023-06-08 16:09:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-06-08 17:10:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2023-06-08 17:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2023-06-08 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2023-06-08 16:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2023-06-08 17:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2023-06-08 16:08:27 +0000"
     },
     "done": true
   },
