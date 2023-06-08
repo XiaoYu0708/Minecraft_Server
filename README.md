@@ -12,5 +12,5 @@ ngrok tcp 25565
 
 啟動minecraft fabric伺服器 nogui
 ```
-java -jar fabric-server-mc.1.19.4-loader.0.14.19-launcher.0.11.2.jar nogui
+java -jar fabric-server-mc.1.20-loader.0.14.21-launcher.0.11.2.jar nogui
 ```

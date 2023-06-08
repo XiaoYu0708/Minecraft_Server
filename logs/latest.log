@@ -1,373 +1,201 @@
-[16:00:26] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[16:00:26] [main/INFO]: Loading 6 mods:
-	- carpet 1.4.101+v230319
-	- fabricloader 0.14.19
+[12:05:51] [main/INFO]: Loading Minecraft 1.20 with Fabric Loader 0.14.21
+[12:05:52] [main/INFO]: Loading 43 mods:
+	- carpet 1.4.111+v230525
+	- fabric-api 0.83.0+1.20
+	   |-- fabric-api-base 0.4.29+b04edc7a27
+	   |-- fabric-api-lookup-api-v1 1.6.34+4d8536c927
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b27
+	   |-- fabric-block-api-v1 1.0.9+e022e5d127
+	   |-- fabric-blockrenderlayer-v1 1.1.39+b3afc78b27
+	   |-- fabric-client-tags-api-v1 1.0.20+b3afc78b27
+	   |-- fabric-command-api-v1 1.2.32+f71b366f27
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b27
+	   |-- fabric-commands-v0 0.2.49+df3654b327
+	   |-- fabric-containers-v0 0.1.61+df3654b327
+	   |-- fabric-content-registries-v0 4.0.7+b3afc78b27
+	   |-- fabric-convention-tags-v1 1.5.3+b3afc78b27
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe27
+	   |-- fabric-data-generation-api-v1 12.1.10+b3afc78b27
+	   |-- fabric-dimensions-v1 2.1.51+b3afc78b27
+	   |-- fabric-entity-events-v1 1.5.21+b3afc78b27
+	   |-- fabric-events-interaction-v0 0.6.0+b3afc78b27
+	   |-- fabric-events-lifecycle-v0 0.2.61+df3654b327
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a27
+	   |-- fabric-item-api-v1 2.1.26+b3afc78b27
+	   |-- fabric-item-group-api-v1 4.0.7+b3afc78b27
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da27
+	   |-- fabric-keybindings-v0 0.2.34+df3654b327
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b27
+	   |-- fabric-loot-api-v2 1.1.37+b3afc78b27
+	   |-- fabric-loot-tables-v1 1.1.41+9e7660c627
+	   |-- fabric-message-api-v1 5.1.6+b3afc78b27
+	   |-- fabric-mining-level-api-v1 2.1.47+b3afc78b27
+	   |-- fabric-models-v0 0.3.35+b3afc78b27
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b27
+	   |-- fabric-networking-v0 0.3.48+df3654b327
+	   |-- fabric-object-builder-api-v1 11.0.6+b3afc78b27
+	   |-- fabric-particles-v1 1.0.28+b3afc78b27
+	   |-- fabric-recipe-api-v1 1.0.18+b3afc78b27
+	   |-- fabric-registry-sync-v0 2.2.6+b3afc78b27
+	   |-- fabric-renderer-api-v1 3.0.1+b3afc78b27
+	   |-- fabric-renderer-indigo 1.3.1+b3afc78b27
+	   |-- fabric-renderer-registries-v1 3.2.44+df3654b327
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b27
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b27
+	   |-- fabric-rendering-v0 1.1.47+df3654b327
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b27
+	   |-- fabric-resource-conditions-api-v1 2.3.4+b3afc78b27
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	   |-- fabric-screen-api-v1 2.0.6+b3afc78b27
+	   |-- fabric-screen-handler-api-v1 1.3.27+b3afc78b27
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b27
+	   |-- fabric-transfer-api-v1 3.2.2+b3afc78b27
+	   \-- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b27
+	- fabricloader 0.14.21
 	- fatxporbs 2.0.1
 	- java 17
-	- lithium 0.11.1
-	- minecraft 1.19.4
-[16:00:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[16:00:26] [main/INFO]: Compatibility level set to JAVA_17
-[16:00:26] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
-[16:00:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:00:36] [main/INFO]: Loaded 7 recipes
-[16:00:37] [main/INFO]: Loaded 1179 advancements
-[16:00:37] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[16:00:37] [Server thread/INFO]: Loading properties
-[16:00:37] [Server thread/INFO]: Default game type: SURVIVAL
-[16:00:37] [Server thread/INFO]: Generating keypair
-[16:00:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:00:37] [Server thread/INFO]: Using epoll channel type
-[16:00:37] [Server thread/INFO]: Preparing level "world"
-[16:00:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:00:48] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[16:00:48] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[16:00:49] [Worker-Main-2/INFO]: Preparing spawn area: 29%
-[16:00:49] [Server thread/INFO]: Time elapsed: 8443 ms
-[16:00:49] [Server thread/INFO]: Done (11.911s)! For help, type "help"
-[16:03:33] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
-[16:03:33] [Server thread/INFO]: weitsungyu[/127.0.0.1:46228] logged in with entity id 2171 at (-321.21515801879764, 64.0, -974.8699642107946)
-[16:03:33] [Server thread/INFO]: weitsungyu joined the game
-[16:03:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:04:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:04:16] [User Authenticator #2/INFO]: UUID of player JOBstear is 553ecaeb-bdf4-4ca8-9eaf-3cde433eaab4
-[16:04:16] [Server thread/INFO]: JOBstear[/[0:0:0:0:0:0:0:1%0]:44250] logged in with entity id 2783 at (-274.59517106248995, 72.0, -928.9387847001846)
-[16:04:16] [Server thread/INFO]: JOBstear joined the game
-[16:08:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:08:31] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:12:19] [Server thread/INFO]: AFK1[local] logged in with entity id 11393 at (-383.35317124125623, 63.5, -1174.2505507504138)
-[16:12:19] [Server thread/INFO]: AFK1 joined the game
-[16:12:29] [Server thread/INFO]: DDDD[local] logged in with entity id 11517 at (-383.30000001192093, 176.90500299101788, -1171.3482692752407)
-[16:12:29] [Server thread/INFO]: DDDD joined the game
-[16:12:44] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to DDDD]
-[16:12:49] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:12:51] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:15:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=296, y=62, z=-1731} class_2338{x=297, y=60, z=-1732}
-[16:15:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=295, y=58, z=-1732} class_2338{x=295, y=59, z=-1735}
-[16:15:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=295, y=58, z=-1732} class_2338{x=295, y=59, z=-1735}
-[16:15:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=292, y=60, z=-1737} class_2338{x=294, y=58, z=-1736}
-[16:15:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=292, y=60, z=-1737} class_2338{x=294, y=58, z=-1736}
-[16:15:59] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[16:16:50] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:17:24] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:20:32] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[16:21:56] [Server thread/WARN]: weitsungyu moved wrongly!
-[16:25:36] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[16:26:26] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[16:26:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:27:38] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[16:27:42] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:27:44] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:27:46] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:30:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:30:36] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:30:36] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:30:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:30:38] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:30:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:31:52] [User Authenticator #3/INFO]: UUID of player Kong_Yin is b7afebd3-3094-411d-af24-6f9344ba4f10
-[16:31:52] [Server thread/INFO]: Kong_Yin[/[0:0:0:0:0:0:0:1%0]:45768] logged in with entity id 39177 at (-273.30000001192093, 72.41999998688698, -928.9955655793481)
-[16:31:52] [Server thread/INFO]: Kong_Yin joined the game
-[16:32:11] [Server thread/INFO]: <Kong_Yin> piyan?
-[16:32:20] [Server thread/INFO]: <weitsungyu> ==
-[16:32:34] [Server thread/INFO]: <Kong_Yin> chi piyan ma?
-[16:36:10] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[16:36:12] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[16:36:14] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[16:47:12] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:47:48] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:48:34] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:48:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:51:50] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[16:51:53] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[16:52:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-617, y=60, z=24} class_2338{x=-616, y=59, z=24}
-[16:54:45] [Server thread/INFO]: [Kong_Yin: Teleported JOBstear to Kong_Yin]
-[16:55:06] [Server thread/INFO]: [Kong_Yin: Teleported weitsungyu to Kong_Yin]
-[16:55:14] [Server thread/INFO]: <weitsungyu> ?
-[16:55:24] [Server thread/INFO]: <weitsungyu> ==
-[16:55:26] [Server thread/INFO]: <Kong_Yin> 按錯人
-[16:55:30] [Server thread/INFO]: <weitsungyu> ........
-[16:55:33] [Server thread/INFO]: <Kong_Yin> www
-[16:55:34] [Server thread/INFO]: <weitsungyu> .......
-[16:55:36] [Server thread/INFO]: <weitsungyu> ....
-[16:55:38] [Server thread/INFO]: <weitsungyu> ...
-[16:55:39] [Server thread/INFO]: <weitsungyu> ..
-[16:55:40] [Server thread/INFO]: <weitsungyu> .
-[16:55:54] [Server thread/INFO]: <Kong_Yin> 我幫你揍他了
-[16:57:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-323, y=65, z=-1022} class_2338{x=-323, y=67, z=-1024}
-[16:57:37] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
-[16:58:55] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[16:59:15] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[16:59:29] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[17:01:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:01:35] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:01:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:01:44] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:07:18] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to weitsungyu]
-[17:09:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:09:03] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:09:10] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
-[17:13:58] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:14:07] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:17:29] [Server thread/WARN]: weitsungyu moved wrongly!
-[17:17:34] [Server thread/INFO]: [weitsungyu: Saved the game]
-[17:18:43] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:18:45] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:19:28] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:20:12] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:22:49] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:23:04] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:24:17] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:24:25] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:24:27] [Server thread/INFO]: [weitsungyu: Saved the game]
-[17:24:28] [Server thread/INFO]: [weitsungyu: Set the time to 1000]
-[17:24:33] [Server thread/INFO]: [weitsungyu: Set the weather to clear]
-[17:24:34] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:24:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:24:42] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:24:51] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
-[17:24:52] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:25:49] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:26:06] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:29:22] [Server thread/WARN]: weitsungyu moved wrongly!
-[17:30:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:30:39] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:33:45] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
-[17:33:48] [Server thread/INFO]: [JOBstear: Set own game mode to Creative Mode]
-[17:35:00] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:35:07] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:35:19] [Server thread/INFO]: [Kong_Yin: Set the time to 1000]
-[17:35:59] [Server thread/INFO]: [JOBstear: Teleported JOBstear to Kong_Yin]
-[17:37:32] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:37:33] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[17:38:17] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:38:23] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[17:38:36] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:41:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=106, y=62, z=-749} class_2338{x=106, y=61, z=-749}
-[17:44:17] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:46:30] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[17:46:35] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:48:12] [Server thread/INFO]: Kong_Yin was shot by Skeleton
-[17:48:18] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[17:50:01] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[17:51:23] [Server thread/INFO]: JOBstear was shot by Skeleton
-[17:51:39] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[17:52:20] [Server thread/INFO]: [JOBstear: Applied effect Speed to JOBstear]
-[17:52:25] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[17:55:40] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:56:27] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:57:42] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:58:26] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[17:58:32] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
-[17:58:33] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[17:58:39] [Server thread/INFO]: [JOBstear: Set own game mode to Adventure Mode]
-[17:58:40] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:01:44] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:01:55] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to weitsungyu]
-[18:01:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:02:01] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:02:05] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:02:09] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:02:10] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:02:13] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:02:44] [Server thread/INFO]: Draze[local] logged in with entity id 137588 at (-342.99354282415936, 192.5, -964.8099121190972)
-[18:02:44] [Server thread/INFO]: Draze joined the game
-[18:03:00] [Server thread/INFO]: Draze fell from a high place
-[18:03:00] [Server thread/INFO]: Draze lost connection: Draze died
-[18:03:00] [Server thread/INFO]: Draze left the game
-[18:03:04] [Server thread/INFO]: Draze[local] logged in with entity id 137743 at (-346.9106240875801, 192.5, -963.5731363451911)
-[18:03:04] [Server thread/INFO]: Draze joined the game
-[18:03:12] [Server thread/INFO]: Draze fell from a high place
-[18:03:12] [Server thread/INFO]: Draze lost connection: Draze died
-[18:03:12] [Server thread/INFO]: Draze left the game
-[18:03:15] [Server thread/INFO]: Draze[local] logged in with entity id 137808 at (-347.29832014601993, 192.5, -962.4077576041688)
-[18:03:15] [Server thread/INFO]: Draze joined the game
-[18:03:33] [Server thread/INFO]: Draze fell from a high place
-[18:03:33] [Server thread/INFO]: Draze lost connection: Draze died
-[18:03:33] [Server thread/INFO]: Draze left the game
-[18:03:36] [Server thread/INFO]: Draze[local] logged in with entity id 137879 at (-343.5699990724328, 192.5, -962.3000000119209)
-[18:03:36] [Server thread/INFO]: Draze joined the game
-[18:03:42] [Server thread/INFO]: Draze fell from a high place
-[18:03:42] [Server thread/INFO]: Draze lost connection: Draze died
-[18:03:42] [Server thread/INFO]: Draze left the game
-[18:03:46] [Server thread/INFO]: Draze[local] logged in with entity id 137912 at (-348.3099212617001, 192.5, -963.4740835804357)
-[18:03:46] [Server thread/INFO]: Draze joined the game
-[18:03:53] [Server thread/INFO]: Draze fell from a high place
-[18:03:53] [Server thread/INFO]: Draze lost connection: Draze died
-[18:03:53] [Server thread/INFO]: Draze left the game
-[18:04:02] [Server thread/INFO]: Draze[local] logged in with entity id 137983 at (-311.70087080331035, 192.5, -964.3191327874739)
-[18:04:02] [Server thread/INFO]: Draze joined the game
-[18:04:15] [Server thread/INFO]: Draze fell from a high place
-[18:04:15] [Server thread/INFO]: Draze lost connection: Draze died
-[18:04:15] [Server thread/INFO]: Draze left the game
-[18:04:22] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to AFK1]
-[18:04:27] [Server thread/INFO]: Draze[local] logged in with entity id 138108 at (-290.3483761445089, 192.5, -965.7310321306844)
-[18:04:27] [Server thread/INFO]: Draze joined the game
-[18:04:38] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:04:41] [Server thread/INFO]: Draze fell from a high place
-[18:04:41] [Server thread/INFO]: Draze lost connection: Draze died
-[18:04:41] [Server thread/INFO]: Draze left the game
-[18:04:57] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:04:58] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:05:01] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to weitsungyu]
-[18:05:32] [Server thread/INFO]: Draze[local] logged in with entity id 138426 at (-289.99721750895014, 192.30948674189204, -1017.4607323659859)
-[18:05:32] [Server thread/INFO]: Draze joined the game
-[18:05:33] [Server thread/INFO]: AFK1 lost connection: Killed
-[18:05:33] [Server thread/INFO]: AFK1 left the game
-[18:05:37] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:05:42] [Server thread/INFO]: AFK1[local] logged in with entity id 138458 at (-383.69999998807907, 193.17184012694048, -1171.699999988079)
-[18:05:42] [Server thread/INFO]: AFK1 joined the game
-[18:05:47] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:05:50] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:05:52] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:05:52] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:05:54] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:06:09] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:06:13] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:06:17] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:06:20] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[18:06:27] [Server thread/INFO]: 123[local] logged in with entity id 138963 at (-310.60474076656163, 64.0, -1050.636791859178)
-[18:06:27] [Server thread/INFO]: 123 joined the game
-[18:06:32] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:06:42] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:06:43] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:06:48] [Server thread/INFO]: 456[local] logged in with entity id 139099 at (-312.24016134967275, 64.0, -1049.948688527194)
-[18:06:48] [Server thread/INFO]: 456 joined the game
-[18:07:26] [Server thread/INFO]: <weitsungyu> player weitsungyu mount anything
-[18:07:43] [Server thread/INFO]: 123 lost connection: Killed
-[18:07:43] [Server thread/INFO]: 123 left the game
-[18:08:37] [Server thread/INFO]: [Kong_Yin: Set the time to 1000]
-[18:08:43] [Server thread/INFO]: [Kong_Yin: Set the weather to clear]
-[18:09:27] [Server thread/INFO]: Kong_Yin was burnt to a crisp whilst fighting JOBstear
-[18:09:42] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[18:09:50] [Server thread/INFO]: Villager class_1646['Villager'/140668, l='ServerLevel[world]', x=-231.72, y=101.56, z=-3786.63] died, message: 'Villager suffocated in a wall'
-[18:09:53] [Server thread/INFO]: Villager class_1646['Villager'/140713, l='ServerLevel[world]', x=-244.63, y=95.50, z=-3819.28] died, message: 'Villager suffocated in a wall'
-[18:10:18] [Server thread/INFO]: 456 was slain by JOBstear
-[18:10:18] [Server thread/INFO]: 456 lost connection: 456 died
-[18:10:18] [Server thread/INFO]: 456 left the game
-[18:11:42] [Server thread/INFO]: Kong_Yin hit the ground too hard
-[18:11:42] [Server thread/INFO]: JOBstear fell from a high place
-[18:11:51] [Server thread/INFO]: <Kong_Yin> ???
-[18:13:17] [Server thread/INFO]: [JOBstear: Set the weather to rain]
-[18:13:18] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:13:25] [Server thread/INFO]: Kong_Yin was slain by JOBstear
-[18:13:27] [Server thread/WARN]: Kong_Yin moved too quickly! -10.05477006161101,0.7914868989959416,11.484566512247739
-[18:13:40] [Server thread/INFO]: [JOBstear: Set the weather to clear]
-[18:13:50] [Server thread/INFO]: [JOBstear: Applied effect Speed to JOBstear]
-[18:13:57] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:13:58] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:14:54] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:14:59] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:15:01] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:15:03] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:15:09] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:15:12] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:15:35] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:15:35] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[18:15:44] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:15:49] [Server thread/INFO]: [Kong_Yin: Set own game mode to Creative Mode]
-[18:15:49] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to AFK1]
-[18:15:51] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:16:01] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:16:02] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:16:05] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:16:07] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:16:12] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:16:14] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:16:19] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:16:24] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:16:26] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:16:31] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:16:34] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:16:37] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:16:38] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:16:47] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:16:54] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:16:58] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:16:59] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:17:19] [Server thread/INFO]: [JOBstear: Set own game mode to Spectator Mode]
-[18:17:20] [Server thread/INFO]: [JOBstear: Set own game mode to Survival Mode]
-[18:17:38] [Server thread/INFO]: [weitsungyu: Set own game mode to Spectator Mode]
-[18:17:40] [Server thread/INFO]: [weitsungyu: Set own game mode to Survival Mode]
-[18:17:50] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:17:53] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:18:03] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:18:07] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:18:41] [Server thread/INFO]: Villager class_1646['Villager'/147496, l='ServerLevel[world]', x=-246.63, y=71.00, z=-9548.28] died, message: 'Villager suffocated in a wall'
-[18:18:49] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[18:18:57] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:19:04] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[18:19:09] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:19:19] [Server thread/INFO]: [JOBstear: Teleported JOBstear to 1449.712000, 39.000000, -2670.678000]
-[18:19:31] [Server thread/INFO]: Villager class_1646['Villager'/148265, l='ServerLevel[world]', x=-291.37, y=70.56, z=-10068.72] died, message: 'Villager suffocated in a wall'
-[18:20:08] [Server thread/INFO]: [JOBstear: Summoned new Dolphin]
-[18:20:16] [Server thread/INFO]: JOBstear drowned
-[18:20:24] [Server thread/INFO]: [JOBstear: Teleported JOBstear to weitsungyu]
-[18:20:39] [Server thread/INFO]: [Kong_Yin: Set own game mode to Spectator Mode]
-[18:20:41] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[18:20:58] [Server thread/INFO]: [JOBstear: Teleported JOBstear to weitsungyu]
-[18:22:27] [Server thread/INFO]: [JOBstear: Applied effect Regeneration to JOBstear]
-[18:22:32] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[18:22:37] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[18:24:08] [Server thread/INFO]: [Kong_Yin: Set own game mode to Survival Mode]
-[18:25:21] [Server thread/INFO]: weitsungyu was shot by Skeleton
-[18:25:30] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:27:00] [Server thread/INFO]: [JOBstear: Summoned new Creeper]
-[18:27:02] [Server thread/INFO]: weitsungyu was blown up by Creeper
-[18:27:07] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:27:09] [Server thread/INFO]: Kong_Yin fell out of the world
-[18:27:09] [Server thread/INFO]: [Kong_Yin: Killed Kong_Yin]
-[18:27:15] [Server thread/INFO]: [JOBstear: Applied effect Speed to JOBstear]
-[18:27:46] [Server thread/INFO]: [JOBstear: Summoned new Blaze]
-[18:28:00] [Server thread/INFO]: [JOBstear: Summoned new Blaze]
-[18:28:03] [Server thread/INFO]: [JOBstear: Summoned new Blaze]
-[18:28:14] [Server thread/INFO]: weitsungyu was slain by Blaze
-[18:28:18] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:28:49] [Server thread/INFO]: [Kong_Yin: Set the time to 1000]
-[18:29:15] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:29:33] [Server thread/INFO]: [Kong_Yin: Set the time to 13000]
-[18:29:37] [Server thread/INFO]: [Kong_Yin: Set the time to 1000]
-[18:30:17] [Server thread/INFO]: [weitsungyu: Summoned new Cat]
-[18:30:27] [Server thread/INFO]: [JOBstear: Summoned new Fox]
-[18:32:58] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Cat]
-[18:33:11] [Server thread/INFO]: [weitsungyu: Teleported Cat to Kong_Yin]
-[18:33:33] [Server thread/INFO]: [weitsungyu: Teleported Cat to Kong_Yin]
-[18:33:41] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[18:34:11] [Server thread/INFO]: [weitsungyu: Teleported Cat to weitsungyu]
-[18:35:03] [Server thread/INFO]: [JOBstear: Summoned new Enderman]
-[18:37:04] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to Kong_Yin]
-[18:37:06] [Server thread/INFO]: [weitsungyu: Teleported weitsungyu to JOBstear]
-[18:37:47] [Server thread/INFO]: [Kong_Yin: Teleported Kong_Yin to JOBstear]
-[18:41:14] [Server thread/INFO]: JOBstear hit the ground too hard
-[18:41:14] [Server thread/INFO]: Kong_Yin fell from a high place
-[18:42:01] [Server thread/INFO]: JOBstear lost connection: Disconnected
-[18:42:01] [Server thread/INFO]: JOBstear left the game
-[18:42:04] [Server thread/INFO]: Kong_Yin lost connection: Disconnected
-[18:42:04] [Server thread/INFO]: Kong_Yin left the game
-[18:42:50] [Server thread/INFO]: weitsungyu lost connection: Disconnected
-[18:42:50] [Server thread/INFO]: weitsungyu left the game
-[18:42:53] [Server thread/INFO]: Stopping the server
-[18:42:53] [Server thread/INFO]: Stopping server
-[18:42:53] [Server thread/INFO]: Saving players
-[18:42:53] [Server thread/INFO]: Saving worlds
-[18:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:43:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:43:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:43:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:43:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:43:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:43:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	- minecraft 1.20
+[12:05:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft_Server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:05:52] [main/INFO]: Compatibility level set to JAVA_17
+[12:05:58] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[12:06:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:06:03] [main/INFO]: Loaded 7 recipes
+[12:06:03] [main/INFO]: Loaded 1271 advancements
+[12:06:04] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.066 ms
+[12:06:04] [Server thread/INFO]: Starting minecraft server version 1.20
+[12:06:04] [Server thread/INFO]: Loading properties
+[12:06:04] [Server thread/INFO]: Default game type: SURVIVAL
+[12:06:04] [Server thread/INFO]: Generating keypair
+[12:06:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:06:04] [Server thread/INFO]: Using epoll channel type
+[12:06:04] [Server thread/INFO]: Preparing level "world"
+[12:06:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:06:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:06:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:06:15] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[12:06:15] [Worker-Main-3/INFO]: Preparing spawn area: 96%
+[12:06:15] [Server thread/INFO]: Time elapsed: 7785 ms
+[12:06:15] [Server thread/INFO]: Done (11.515s)! For help, type "help"
+[12:22:33] [User Authenticator #1/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/light_blue_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/purple_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/yellow_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/orange_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/cyan_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/lime_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/green_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/blue_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/magenta_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/gray_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/pink_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/red_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/black_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/brown_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/light_gray_bed_from_white_bed' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/red_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/yellow_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/light_gray_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/pink_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/magenta_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/blue_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/light_blue_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/light_gray_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/red_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/purple_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/cyan_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/orange_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/pink_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/black_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/yellow_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/gray_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/lime_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/green_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/brown_wool' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/black_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/light_blue_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/lime_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/purple_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/magenta_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/green_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/brown_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/blue_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/gray_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/orange_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/cyan_carpet_from_white_carpet' in progress file ./world/advancements/3cf5f1a5-0fb5-4ed6-bca0-539907f92da8.json - it doesn't exist anymore?
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:red_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:red_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:magenta_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:cyan_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:black_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lime_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lime_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:purple_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lime_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_gray_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:purple_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:yellow_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:green_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:magenta_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_blue_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:orange_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:black_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gray_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:pink_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:brown_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:yellow_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:orange_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_blue_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:yellow_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_blue_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_gray_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gray_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:green_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:black_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:brown_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:brown_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:cyan_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:red_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:blue_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:orange_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:pink_wool removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:magenta_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:cyan_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:purple_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:green_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:blue_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gray_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:light_gray_bed_from_white_bed removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:pink_carpet_from_white_carpet removed now.
+[12:22:33] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:blue_wool removed now.
+[12:22:33] [Server thread/INFO]: weitsungyu[/127.0.0.1:40870] logged in with entity id 640 at (-273.95224199502394, 72.0, -929.9490775406484)
+[12:22:33] [Server thread/INFO]: weitsungyu joined the game
+[12:26:15] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[12:26:15] [Server thread/INFO]: weitsungyu left the game
+[12:26:21] [User Authenticator #2/INFO]: UUID of player weitsungyu is 3cf5f1a5-0fb5-4ed6-bca0-539907f92da8
+[12:26:21] [Server thread/INFO]: weitsungyu[/127.0.0.1:58124] logged in with entity id 1597 at (-259.0456007847921, 64.0, -963.1021826301914)
+[12:26:21] [Server thread/INFO]: weitsungyu joined the game
+[12:26:49] [Server thread/INFO]: weitsungyu lost connection: Disconnected
+[12:26:49] [Server thread/INFO]: weitsungyu left the game
+[12:26:51] [Server thread/INFO]: Stopping the server
+[12:26:51] [Server thread/INFO]: Stopping server
+[12:26:51] [Server thread/INFO]: Saving players
+[12:26:51] [Server thread/INFO]: Saving worlds
+[12:26:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:26:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:26:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:26:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:26:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:26:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:26:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
